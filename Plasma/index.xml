@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<name>GoodEnoughCNC Plasma Cutter</name>
+	<module> <!-- Intro -->
+		<name>Intro</name>
+		<steps>
+			<step>
+				<text>Follow this step-by-step assembly instructions to build your GoodEnoughCNC Plasma Cutter.
+				Perform each step following assembly step description with photo demonstration. Video tutorials for each step will be included shortly. We highly recommend you follow the assembling steps in the suggested order.</text>
+				<images>
+					<image>pics/intro.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+			</step>
+		</steps>
+	</module>
+	<module> <!-- Guide for Drilling Holes -->
+		<name>Guide for Drilling Holes</name>
+		<steps>
+			<step>
+				<text>Before using these instruction it is recommended to read this guide for drilling holes. This guide shows how to drill most of the holes on steel beams and other parts needed for this CNC machine. For marking position of the hole, first measure the distance with ruler from reference point to center of the hole in both X and Y axis.</text>
+				<images>
+					<image>pics/Drilling_Holes/Holes1.jpg</image>
+					<image>pics/Drilling_Holes/Holes2.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>With center punch and hammer mark center of the hole on top surface. First use little force to check if center punch is positioned correctly. With stronger punch then make dent that will serve as guide for drill. Repeat the step for bottom surface.</text>
+				<images>
+					<image>pics/Drilling_Holes/Holes3.jpg</image>
+					<image>pics/Drilling_Holes/Holes4.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+			</step>
+			<step>
+				<text>For 8mm diameter holes we must done predrill with smaller drills. The drilling is performed by stages on drill pres. Before drilling make sure that beam is rectangular to the drilling head.</text>
+				<images>
+					<image>pics/Drilling_Holes/Holes5.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Start with 4mm hole, first drilll hole through top surface then through bottom surface.</text>
+				<images>
+					<image>pics/Drilling_Holes/Holes6.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Continue with drilling 6mm hole, first drilll hole through top surface then through bottom surface.</text>
+				<images>
+					<image>pics/Drilling_Holes/Holes7.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Finish with drilling 8mm hole, first drilll hole through top surface then through bottom surface.</text>
+				<images>
+					<image>pics/Drilling_Holes/Holes8.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+			</step>
+		</steps>
+	</module>
+	<module> <!-- Frame - parts preparation -->
+		<name>Frame - parts preparation</name>
+		<steps>
+			<step>
+				<text>Start with cutting square profiles dimensions 40mmx40mm 3mm thick to length 1200mm. Be sure that rectangular cut is achieved. 5 such profiles are needed. Smooth the rough edges with the file. Mark surfaces of profile, start with S1 and rotate profile clockwise and mark sides S2, S3 and S4.</text>
+				<images>
+					<image>pics/Frame/Frame1.jpg</image>
+					<image>pics/Frame/Frame2.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>5x 40x40x1200 square profile</part>
+				</parts>
+			</step>
+			<step>
+				<text>For the Beam Y drill three 8mm holes through both sides of the profile on surface S1 and S3. Holes A1 and A2 are in the center of the profile transversely and 20 mm longitudinally from the end edges. Hole A3 is longitudinally 125 mm and transversely 28 mm from profile edges. Make two identical Beams Y.</text>
+				<images>
+					<image>pics/Frame/Frame3.jpg</image>
+					<image>pics/Frame/Frame4.jpg</image>
+					<image>pics/Frame/Frame5.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+			</step>
+			<step>
+				<text>For the Beam X1 drill two 8 mm holes through both sides of the profile on surface S1 and S3. Holes A1 and A2 are in the center of the profile transversely and 20 mm longitudinally from the end edges.</text>
+				<images>
+					<image>pics/Frame/Frame6.jpg</image>
+					<image>pics/Frame/Frame7.jpg</image>
+					<image>pics/Frame/Frame8.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+			</step>
+			<step>
+				<text>For the Beam X2 drill four 8 mm holes through both sides of the profile on surface S1 and S3. Holes A1 and A2 are in the center of the profile transversely and 20 mm longitudinally from the end edges. Holes A3 and A4 are longitudinally 140 mm and transversely 28 mm from profile edges.</text>
+				<images>
+					<image>pics/Frame/Frame9.jpg</image>
+					<image>pics/Frame/Frame10.jpg</image>
+					<image>pics/Frame/Frame11.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+			</step>
+			<step>
+				<text>For the Beam X – Main drill four 8 mm holes through both sides of the profile on surface S1 and S3. All of the holes are in the center of the profile transversely. A1 is 20 mm from end edge and A3 is 30 mm apart from A1. A2 and A4 are simmtrical to A1 and A3.</text>
+				<images>
+					<image>pics/Frame/Frame12.jpg</image>
+					<image>pics/Frame/Frame13.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+		</steps>
+	</module>
+	<module> <!-- Trolley - parts preparation -->
+		<name>Trolley - parts preparation</name>
+		<steps>
+			<step>
+				<text>Take square profile dimensions 100x100mm with 3 millimeters thick wall. Use saw to cut it 130 mm long. Be sure that rectangular cut is achieved. Smooth the rough edges with the file.</text>
+				<images>
+					<image>pics/Trolley/Trolley1.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>3x 100x100x130 square profiles</part>
+				</parts>
+			</step>
+			<step>
+				<text>For marking the positions of the holes use laser cutted wooden box (mock up). Place 100x100 square profile into the box. Put simple nail into the small holes on the box and punch it to make a mark on the profile. Alternatively you can use hole table on associated technical drawing for positioning the holes.</text>
+				<images>
+					<image>pics/Trolley/Trolley2.jpg</image>
+					<image>pics/Trolley/Trolley3.jpg</image>
+					<image>pics/Trolley/Trolley4.jpg</image>
+					<image>pics/Trolley/Trolley5.jpg</image>
+					<image>pics/Trolley/Trolley6.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>With the center punch and hammer deepen the marks for the holes that will serve as guide for drill. For drilling of the holes refer to the guide for drilling holes.</text>
+				<images>
+					<image>pics/Trolley/Trolley7.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>For type and size of the holes use a mock up box where hole sizes are specified. Related surfaces are also marked on the mock up box. Alternatively you can use hole table on associated technical drawing for hole sizes. For drilling of the holes refer to the guide for drilling holes.</text>
+				<images>
+					<image>pics/Trolley/Trolley8.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>To make threaded holes, firstly drill the hole aproximately 15% smaller than the nominal value. Then use a hand tap to cut in a thread. It is recommended using machine grease to reduse friction, so that a tap does not brake. When rotating a tap make sure that it is perpendicular to the surface. Verify the threaded hole with associated bolt.</text>
+				<images>
+					<image>pics/Trolley/Trolley9.jpg</image>
+					<image>pics/Trolley/Trolley10.jpg</image>
+					<image>pics/Trolley/Trolley11.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>To drill a large hole on the front surface use a step drill.</text>
+				<images>
+					<image>pics/Trolley/Trolley12.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Postiton of the holes on the fornt surface. Front surface is the same for all three trolleys.</text>
+				<images>
+					<image>pics/Trolley/Trolley13.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Postiton of the holes on the top surface. Top surface on the Trolley Y1 and Y2 has two additional M8 threaded holes, where Beam X – Main is bolted.</text>
+				<images>
+					<image>pics/Trolley/Trolley14.jpg</image>
+					<image>pics/Trolley/Trolley15.jpg</image>
+					<image>pics/Trolley/Trolley16.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Postiton of the holes on the back surface. Back surfcae on the trolley X has two additional 8 mm holes for Z-Axis attachment.</text>
+				<images>
+					<image>pics/Trolley/Trolley17.jpg</image>
+					<image>pics/Trolley/Trolley18.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Postiton of the holes on the bottom surface. Bottom surface is the same for all three trolleys.</text>
+				<images>
+					<image>pics/Trolley/Trolley19.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+		</steps>
+	</module>
+	<module> <!-- Tightener - parts preparation -->
+		<name>Tightener - parts preparation</name>
+		<steps>
+			<step>
+				<text>Take L – profile dimensions 40x40mm, 3mm thick and cut it to length 80mm.</text>
+				<images>
+					<image>pics/Tightener/Tightener1.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>6x 40x40x80 L profile</part>
+				</parts>
+			</step>
+			<step>
+				<text>First cut the perpendiclar notch in the middle of one side of the profile. Then cut out one side up to that notch with an angle grinder. Grind the cutted edge to make an even surface with other side. Make sure to cut three profiles for left sided tighteners and three more for right sided tighteners.</text>
+				<images>
+					<image>pics/Tightener/Tightener2.jpg</image>
+					<image>pics/Tightener/Tightener3.jpg</image>
+					<image>pics/Tightener/Tightener4.jpg</image>
+					<image>pics/Tightener/Tightener5.jpg</image>
+					<image>pics/Tightener/Tightener6.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+			</step>
+			<step>
+				<text>Drill one 8 mm hole and two 6 mm holes on the side without the notch. The holes are in the center transversely. 8 mm hole is 20 mm from edge. First 6 mm hole is 7 mm from the other edge and second 6 mm hole is 25 mm apart from the first.</text>
+				<images>
+					<image>pics/Tightener/Tightener7.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+			</step>
+			<step>
+				<text>Make three profiles for left and three profiles for right tighteners. Make sure that profiles for left nad right tighteners are symmetrically opposite.</text>
+				<images>
+					<image>pics/Tightener/Tightener8.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+			</step>
+		</steps>
+	</module>
+	<module> <!-- Z Axis - parts preparation -->
+		<name>Z Axis - parts preparation</name>
+		<steps>
+			<step>
+				<text>Take 5 mm thick aluminium plate and cut three rectangular plates. The dimensions for Bearing plate are 150x135 mm, for Motor plate are 135x45 mm and for Bottom plater are 92x30 mm.</text>
+				<images>
+					<image>pics/Z_Axis/Z_Axis1.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x 150x135x5 aluminium plate</part>
+					<part>1x 135x45x5 aluminium plate</part>
+					<part>1x 92x30x5 aluminium plate</part>
+				</parts>
+			</step>
+			<step>
+				<text>For positioning and drilling of the holes refer to guide for drilling holes. It is recommended to use a vice to fasten a plate firmly.</text>
+				<images>
+					<image>pics/Z_Axis/Z_Axis2.jpg</image>
+					<image>pics/Z_Axis/Z_Axis3.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+			</step>
+			<step>
+				<text>The position and size of the holes on the Bearing plate can be found on the following picture. To make the slotted holes B1 and B2 first drill 8 mm holes next to each other and then use round file to make a slot. Alternatevely you can drill bigger holes in the center position of the slots.</text>
+				<images>
+					<image>pics/Z_Axis/Z_Axis4.jpg</image>
+					<image>pics/Z_Axis/Z_Axis5.jpg</image>
+					<image>pics/Z_Axis/Z_Axis6.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+			</step>
+			<step>
+				<text>The position and size of the holes on the Motor plate can be found on the following picture.</text>
+				<images>
+					<image>pics/Z_Axis/Z_Axis7.jpg</image>
+					<image>pics/Z_Axis/Z_Axis8.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>On the Bottom plate drill a two 5 mm holes in the center of the plate 30 mm apart.</text>
+				<images>
+					<image>pics/Z_Axis/Z_Axis9.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Take aluminium X profile with the groove and cut two pieces 300 mm in length.</text>
+				<images>
+					<image>pics/Z_Axis/Z_Axis10.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x 300mm aluminium X profile</part>
+				</parts>
+			</step>
+			<step>
+				<text>Take steel round rod with diameter 12 mm and cut two pieces 270 mm in length.</text>
+				<images>
+					<image>pics/Z_Axis/Z_Axis11.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x 12x270 steel round rod</part>
+				</parts>
+			</step>
+		</steps>
+	</module>
+	<module> <!-- 3D printed parts -->
+		<name>3D printed parts</name>
+		<steps>
+			<step>
+				<text>Use 3D printer to print plastic parts needed for construction of CNC plasma cutter. We used Troublemaker – our open source 3D printer.</text>
+				<images>
+					<image>pics/3D_Printed_Parts/Print_Prt1.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>For all printed parts use knife or scalpel to cut away excess plastic on the edges. Also for parts with holes you have to redrill all round holes.</text>
+				<images>
+					<image>pics/3D_Printed_Parts/Print_Prt2.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Tightener – Outer – redrill all three holes with 6 mm drill.</text>
+				<images>
+					<image>pics/3D_Printed_Parts/Print_Prt3.jpg</image>
+					<image>pics/3D_Printed_Parts/Print_Prt4.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>6x Tightener – Outer</part>
+				</parts>
+			</step>
+			<step>
+				<text>Tightener – Inner</text>
+				<images>
+					<image>pics/3D_Printed_Parts/Print_Prt5.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>3x Tightener – Inner</part>
+				</parts>
+			</step>
+			<step>
+				<text>Tightener – Spacer – redrill two holes with 6 mm drill.</text>
+				<images>
+					<image>pics/3D_Printed_Parts/Print_Prt6.jpg</image>
+					<image>pics/3D_Printed_Parts/Print_Prt7.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x Tightener – Spacer</part>
+				</parts>
+			</step>
+			<step>
+				<text>Linear guide mount – redrill hole with 8 mm drill.</text>
+				<images>
+					<image>pics/3D_Printed_Parts/Print_Prt8.jpg</image>
+					<image>pics/3D_Printed_Parts/Print_Prt9.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>4x Linear guide mount</part>
+				</parts>
+			</step>
+			<step>
+				<text>Nut casing – Upper – redrill two 4 mm holes and two 3 mm holes.</text>
+				<images>
+					<image>pics/3D_Printed_Parts/Print_Prt10.jpg</image>
+					<image>pics/3D_Printed_Parts/Print_Prt11.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x Nut casing – Upper</part>
+				</parts>
+			</step>
+			<step>
+				<text>Nut casing – Bottom – redrill two 4 mm holes and two 3 mm holes.</text>
+				<images>
+					<image>pics/3D_Printed_Parts/Print_Prt12.jpg</image>
+					<image>pics/3D_Printed_Parts/Print_Prt13.jpg</image>
+					<image>pics/3D_Printed_Parts/Print_Prt14.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x Nut casing – Bottom</part>
+				</parts>
+			</step>
+			<step>
+				<text>All 3D printed parts needed for complete assembly.</text>
+				<images>
+					<image>pics/3D_Printed_Parts/Print_Prt15.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+			</step>
+		</steps>
+	</module>
+	<module> <!-- Trolley Assembly -->
+		<name>Trolley Assembly</name>
+		<steps>
+			<step>
+				<text>Take NEMA 23 Stepper motor and mount timing pully onto motor axis. Distance between motor casing and timing pully edge should be around 1 mm.</text>
+				<images>
+					<image>pics/Trolley_Assembly/Trolley_Ass1.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>3x NEMA 23 Stepper motor</part>
+					<part>3x HTD3M/16-10mm timing pulley</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put DIN 7985 M5x25 bolts into mounting holes of NEMA 23 Stepper motor. Use washers.</text>
+				<images>
+					<image>pics/Trolley_Assembly/Trolley_Ass2.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>4x DIN 7985 M5x25 bolt</part>
+					<part>4x DIN 125 5.3</part>
+				</parts>
+			</step>
+			<step>
+				<text>Screw two DIN 934 M5 hex nuts onto each DIN 7985 M5x25 bolt which will serve as spacers between stepper and Front surface of short Beam Short.</text>
+				<images>
+					<image>pics/Trolley_Assembly/Trolley_Ass3.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>4x DIN 934 M5 hex nut</part>
+				</parts>
+			</step>
+			<step>
+				<text>Screw NEMA 23 Stepper motor onto Front surface of Beam Short with four DIN 125 5.3 washers and four DIN 934 M5 hex nuts.</text>
+				<images>
+					<image>pics/Trolley_Assembly/Trolley_Ass4.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>4x DIN 934 M5 hex nut</part>
+					<part>4x DIN 125 5.3 washer</part>
+				</parts>
+			</step>
+			<step>
+				<text>Cut peace of steel, wood or aluminum 33, 30 and 27mm long and about 10 mm wide. This will be used as a ruler for measuring distance between bearing and inner wall of Beam Short.</text>
+				<images>
+					<image>pics/Trolley_Assembly/Trolley_Ass5.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Put bolt DIN 933 M8x120 into B1 hole on Top surface of Beam Short and screw on Bearing 608ZZ using hex nuts DIN 934 M8 with spring washers DIN 127 8.5. Distance from inner Top surface to bearing should be 30 mm. Distance measure with ruler made in step 48. Screw nut with washer on bolt onto Bottom surface.</text>
+				<images>
+					<image>pics/Trolley_Assembly/Trolley_Ass6.jpg</image>
+					<image>pics/Trolley_Assembly/Trolley_Ass7.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x DIN 933 M8x120 bolt</part>
+					<part>3x DIN 934 M8 hex nut</part>
+					<part>2x DIN 127 8.5 spring washer</part>
+					<part>1x DIN 125 8.4 washer</part>
+					<part>1x 608ZZ bearing</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put bolt DIN 933 M8x120 into B1 hole on Front surface and repeat procedure from step 49. Distance from inner Front surface to bearing should be 33 mm.</text>
+				<images>
+					<image>pics/Trolley_Assembly/Trolley_Ass8.jpg</image>
+					<image>pics/Trolley_Assembly/Trolley_Ass9.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x DIN 933 M8x120 bolt</part>
+					<part>3x DIN 934 M8 hex nut</part>
+					<part>2x DIN 127 8.5 spring washer</part>
+					<part>1x DIN 125 8.4 washer</part>
+					<part>1x 608ZZ bearing</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put bolt DIN 933 M8x120 into A2 hole on Top surface and repeat procedure from step 49. Distance from inner Bottom surface to bearing should be 30 mm.</text>
+				<images>
+					<image>pics/Trolley_Assembly/Trolley_Ass10.jpg</image>
+					<image>pics/Trolley_Assembly/Trolley_Ass11.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x DIN 933 M8x120 bolt</part>
+					<part>3x DIN 934 M8 hex nut</part>
+					<part>2x DIN 127 8.5 spring washer</part>
+					<part>1x DIN 125 8.4 washer</part>
+					<part>1x 608ZZ bearing</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put bolt DIN 933 M8x120 into A1 hole on Top surface and repeat procedure from step 49. Distance from inner Bottom surface to bearing should be 30 mm.</text>
+				<images>
+					<image>pics/Trolley_Assembly/Trolley_Ass12.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x DIN 933 M8x120 bolt</part>
+					<part>3x DIN 934 M8 hex nut</part>
+					<part>2x DIN 127 8.5 spring washer</part>
+					<part>1x DIN 125 8.4 washer</part>
+					<part>1x 608ZZ bearing</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put bolt DIN 933 M8x120 into A1 hole on Front surface and put components on in this order: washer DIN 125 8.4, two Bearings F608Z opposite to each other, washer DIN 125 8.4 and M8 hex nut. Then screw on Bearing 608ZZ using two hex nuts DIN 934 M8 with two spring washers DIN 127 8.5 Distance from inner Back surface to bearing should be 27 mm.</text>
+				<images>
+					<image>pics/Trolley_Assembly/Trolley_Ass13.jpg</image>
+					<image>pics/Trolley_Assembly/Trolley_Ass14.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x DIN 933 M8x120 bolt</part>
+					<part>4x DIN 934 M8 hex nut</part>
+					<part>3x DIN 125 8.4 washer</part>
+					<part>2x DIN 127 8.5 spring washer</part>
+					<part>2x F608Z bearing</part>
+					<part>1x 608ZZ bearing</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put bolt DIN 933 M8x120 into A2 hole on Front surface and repeat procedure from step 53. Distance from inner Back surface to bearing should be 27 mm.</text>
+				<images>
+					<image>pics/Trolley_Assembly/Trolley_Ass15.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x DIN 933 M8x120 bolt</part>
+					<part>4x DIN 934 M8 hex nut</part>
+					<part>3x DIN 125 8.4 washer</part>
+					<part>2x DIN 127 8.5 spring washer</part>
+					<part>2x F608Z bearing</part>
+					<part>1x 608ZZ bearing</part>
+				</parts>
+			</step>
+			<step>
+				<text>In holes C1 and C2 on Back surface screw in two DIN 933 M6x25 bolts with additional DIN 934 M6 hex nuts already screwed on them. Screw them half way in.</text>
+				<images>
+					<image>pics/Trolley_Assembly/Trolley_Ass16.jpg</image>
+					<image>pics/Trolley_Assembly/Trolley_Ass17.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x DIN 933 M6x25 bolt</part>
+					<part>2x DIN 934 M6 hex nut</part>
+				</parts>
+			</step>
+			<step>
+				<text>In holes C1 and C2 on Bottom surface screw in two DIN 933 M6x25 in the same way as in step 53.</text>
+				<images>
+					<image>pics/Trolley_Assembly/Trolley_Ass18.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x DIN 933 M6x25 bolt</part>
+					<part>2x DIN 934 M6 hex nut</part>
+				</parts>
+			</step>
+			<step>
+				<text>Completed trolley assembly.</text>
+				<images>
+					<image>pics/Trolley_Assembly/Trolley_Ass19.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Instructions for assembly of Trolley X are the same, with the exception of three different M8 bolts and two additional M8 bolts. Instead of putting two DIN 933 M8x120 bolts in holes A1 and A2 on the Front surface, put two DIN 933 M8x140 bolts. Then instead of putting DIN 933 M8x120 bolt in hole B1 on the Front surface, put DIN 933 M8x110 bolt. The following assembly of parts that go on these bolts is the same as in previous steps of the Trolley assembly.</text>
+				<images>
+					<image>pics/Trolley_Assembly/Trolley_Ass20.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x DIN 933 M8x140 bolt</part>
+					<part>1x DIN 933 M8x110 bolt</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put two DIN 933 M8x50 bolts in holes A3 and A4 from the inner side of the Back surface. Screw two hex nuts DIN 934 M8 with washers DIN 125 8.4 on these bolts onto Back surface. Screw additional four M8 hex nuts on all four bolts that are protruding out of the Back surface. These will serve as spacers between Trolley X and Bearing plate of Z-Axis.</text>
+				<images>
+					<image>pics/Trolley_Assembly/Trolley_Ass21.jpg</image>
+					<image>pics/Trolley_Assembly/Trolley_Ass22.jpg</image>
+					<image>pics/Trolley_Assembly/Trolley_Ass23.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x DIN 933 M8x50 bolt</part>
+					<part>6x DIN 934 M8 hex nut</part>
+					<part>2x DIN 125 8.4 washer</part>
+				</parts>
+			</step>
+			<step>
+				<text>Completed trolley assemblies for Trolley Y1, Y2 and X.</text>
+				<images>
+					<image>pics/Trolley_Assembly/Trolley_Ass24.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+		</steps>
+	</module>
+	<module> <!-- Tightener Assembly -->
+		<name>Tightener Assembly</name>
+		<steps>
+			<step>
+				<text>Put DIN 934 M6 hex nut into nut bracket in part Tightener – Outer. Make sure it fits tightly, if not try cutting excess plastic on edges. This step is needed for only three Tighteners.</text>
+				<images>
+					<image>pics/Tightener_Assembly/Tightener_Ass1.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>6x Tightener – Outer</part>
+					<part>3x DIN 934 M6 hex nut</part>
+				</parts>
+			</step>
+			<step>
+				<text>Screw in DIN 7985 M6x25 bolt into nut from previous step. This step is needed for only three Tighteners.</text>
+				<images>
+					<image>pics/Tightener_Assembly/Tightener_Ass2.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>3x DIN 7985 M6x25 bolt</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put two DIN 7985 M6x25 bolts in two remaining holes on part Tightener – Outer as shown in picture. Skip this step for two Tighteners on X axis.</text>
+				<images>
+					<image>pics/Tightener_Assembly/Tightener_Ass3.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>8x DIN 7985 M6x25 bolt</part>
+				</parts>
+			</step>
+			<step>
+				<text>Screw part Tightener – Outer on the bracket for tighteners with DIN 934 M6 hex nuts. When screwing don't screw it tightly, leave 2mm large gap for mounting timing belt later.</text>
+				<images>
+					<image>pics/Tightener_Assembly/Tightener_Ass4.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>8x DIN 934 M6 hex nut</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put printed pin (part Tightener – Inner) in hole on part Tightener – Outer. This step is needed for only three Tighteners.</text>
+				<images>
+					<image>pics/Tightener_Assembly/Tightener_Ass5.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>3x Tightener – Inner</part>
+				</parts>
+			</step>
+			<step>
+				<text>Two Tighteners that are holding timing belt for X axis have additional printed part (Tightener – Spacer) mounted on them. Take part Tightener – Spacer and Tightener – Outer and put DIN 7985 M6x50 bolts through both holes on both parts, so that thay fit together as shown on picture. All other steps are the same as previous steps. Make sure that at least one of these two tighteners have tightening mechanism (pin and bolt through inserted nut).</text>
+				<images>
+					<image>pics/Tightener_Assembly/Tightener_Ass6.jpg</image>
+					<image>pics/Tightener_Assembly/Tightener_Ass7.jpg</image>
+					<image>pics/Tightener_Assembly/Tightener_Ass8.jpg</image>
+					<image>pics/Tightener_Assembly/Tightener_Ass9.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x Tightener – Spacer</part>
+					<part>4x DIN 7985 M6x50 bolt</part>
+					<part>4x DIN 934 M6 hex nut</part>
+				</parts>
+			</step>
+			<step>
+				<text>All six completed Tightener assemblies. There are three left and three right Tighteners.</text>
+				<images>
+					<image>pics/Tightener_Assembly/Tightener_Ass10.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+		</steps>
+	</module>
+	<module> <!-- Z Axis Assembly -->
+		<name>Z Axis Assembly</name>
+		<steps>
+			<step>
+				<text>Put 12mm round rod (270 mm in length) into round notch on printed part Linear guide mount. Do this on both ends of the rod. Make sure that the orientation of the Linear guide mounts is the same. Do this step two times.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass1.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x 12x270 round rod</part>
+					<part>4x Linear guide mount</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put this rod into groove on aluminium X profile. Do this step two times.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass2.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x 300mm X profile</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put square nut DIN 562 M8 into groove on X profile below the Linear guide mounts as shown in picture. Do this on both ends of the profile. Do this step two times.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass3.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>4x DIN 562 M8 square nut</part>
+				</parts>
+			</step>
+			<step>
+				<text>Screw in DIN 933 M8x25 bolt through the Linear guide mount into M8 square nut. Because of the shape, the square nut does not rotate and we can fasten the bolt firmly. Use DIN 125 8.4 washers. Do this on both end of the profile. Do this step two times.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass4.jpg</image>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass5.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>4x DIN 933 M8x25 bolt</part>
+					<part>4x DIN 125 8.4 washer</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put both completed assemblies so far together as shown in picture.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass6.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Take Motor plate and put four ISO 14583 M3x12 torx bolts into four 3 mm (A1, A2, A3, A4) holes. Use DIN 125 3.2 wahsers. Screw the bolts with four DIN 934 M3 hex nuts.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass7.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x Motor plate</part>
+					<part>4x ISO 14583 M3x12 torx bolt</part>
+					<part>4x DIN 125 3.2 wahser</part>
+					<part>4x DIN 934 M3 hex nut</part>
+				</parts>
+			</step>
+			<step>
+				<text>Fasten the NEMA 17 Stepper motor onto Motor plate with these four torx bolts.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass8.jpg</image>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass9.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x NEMA 17 stepper motor</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put two metal 10 mm screw anchor into both center holes on one end of the X profiles.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass10.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x 10mm screw anchor</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put Motor plate with already attached motor onto these end of the assembly and fasten it with two DIN 933 M8x16 bolts. Use DIN 125 8.4 washers.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass11.jpg</image>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass12.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x DIN 933 M8x16 bolt</part>
+					<part>2x DIN 125 8.4 washer</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put two plastic 10 mm screw anchor into both center holes on the other end of the X profiles.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass13.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x 10mm screw anchor</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put Bottom plate on this end of the assembly and fasten it with two DIN 7996 4.5x50 wood cross screws. Use DIN 125 5.3 washers.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass14.jpg</image>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass15.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x DIN 7996 4.5x50 cross screw</part>
+					<part>2x DIN 125 5.3 washer</part>
+				</parts>
+			</step>
+			<step>
+				<text>Take Bearing plate and put four DIN 933 M8x50 bolts in round holes C5, C6 and slot holes B1, B2. Make sure to use DIN 125 8.4 washers also on the back side of the plate. On the fron side of the plate put parts on each of these bolts in following order: washer DIN 125 8.4, hex nut DIN 934 M8, bearing 608ZZ, then again washer DIN 125 8.4, hex nut DIN 934 M8, bearing 608ZZ, and in the end washer DIN 125 8.4 with hex nut DIN 934 M8.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass16.jpg</image>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass17.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x Bearing plate</part>
+					<part>4x DIN 933 M8x50 bolt</part>
+					<part>8x DIN 934 M8 hex nut</part>
+					<part>16x DIN 125 8.4 washer</part>
+					<part>8x 608ZZ bearing</part>
+				</parts>
+			</step>
+			<step>
+				<text>For the bolts in holes C5 and C6 tighten all the nuts firmly. For the bolts in slot holes B1 and B2 do not tighten the nuts too firmly because we must adjust their position precisely in later steps.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass18.jpg</image>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass19.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Take printed part Nut casing – Bottom and put DIN 562 M3 square nut into square slot.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass20.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x Nut casing – Bottom</part>
+					<part>1x DIN 562 M3 square nut</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put DIN 934 M8 hex nut into hex shaped hole on part Nut casing – Bottom.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass21.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x DIN 934 M8 hex nut</part>
+				</parts>
+			</step>
+			<step>
+				<text>Take parts Nut casing – Bottom nad Nut casing – Upper andput them together as shown on picture. Put hex socket bolts DIN 912 M3x35 and DIN 912 M3x16 through 3 mm holes on both parts.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass22.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x Nut casing – Upper</part>
+					<part>1x DIN 912 M3x35 bolt</part>
+					<part>1x DIN 912 M3x16 bolt</part>
+				</parts>
+			</step>
+			<step>
+				<text>Screw bigger bolt DIN 912 M3x35 into M3 square nut which is already inserted in Nut casing – Bottom. Screw smaller DIN 912 M3x16 bolt with DIN 934 M3 hex nut.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass23.jpg</image>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass24.jpg</image>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass25.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x DIN 934 M3 hex nut</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put four DIN 912 M4x16 hex socket bolts in four 4 mm holes (A1, A2, A3, A4).</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass26.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>4x DIN 912 M4x16 bolt</part>
+				</parts>
+			</step>
+			<step>
+				<text>Fasten the Nut casing assembly onto these four bolts with four DIN 934 M4 hex nuts as shown in picture.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass27.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>4x DIN 934 M4 hex nut</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put assembly with X profiles on bearing plate between bolts with bearings. Make sure that stell round rods are in the middle of two bearings on each bolt.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass28.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Fasten the nuts on bolts that are located in slot holes B1 and B2. It is important that bearings sit tight on steel round rods, so make sure to press it hard with spanners when fastening the nuts. If all the bearings are not sitting tightly with round rods, then try using a hammer before fastening the nuts firmly.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass29.jpg</image>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass30.jpg</image>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass31.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Fasten the Coupler (5 to 8 mm) on motor shaft.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass32.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x 5-8mm coupler</part>
+				</parts>
+			</step>
+			<step>
+				<text>Screw the M8x200 threaded rod through the M8 nut in Bearing casing up to the Coupler. Fasten the M8 rod in the 8 mm hole on the other side of the Coupler.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass33.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x M8x200 threaded rod</part>
+				</parts>
+			</step>
+			<step>
+				<text>Completed Z Axis assembly.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Z_Axis_Ass34.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+		</steps>
+	</module>
+	<module> <!-- Frame Assembly -->
+		<name>Frame Assembly</name>
+		<steps>
+			<step>
+				<text>Put Beam X1 and Beam X2 onto assembly table approximately 1160mm apart to each other in a fashion that A3 and A4 holes on Beam X2 are facing inwards. Put both Beams Y on prepared Beams X1 and X2 in a fashion that A3 holes on Beams Y are facing inwards Make sure that the holes for mounting Turnbuckle will be in the same corner – see picture.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass1.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x Beam Y</part>
+					<part>1x Beam X1</part>
+					<part>1x Beam X2</part>
+				</parts>
+			</step>
+			<step>
+				<text>Take Trolley Y1 and Y2 and slide one of them on each Beam Y in a fashion that both motors will be facing outwards.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass2.jpg</image>
+					<image>pics/Frame_Assembly/Frame_Ass3.jpg</image>
+					<image>pics/Frame_Assembly/Frame_Ass4.jpg</image>
+					<image>pics/Frame_Assembly/Frame_Ass5.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x Trolley Y1</part>
+					<part>1x Trolley Y2</part>
+				</parts>
+			</step>
+			<step>
+				<text>Mount together first corner of the frame with DIN 933 M8x120 bolt, DIN 934 M8 hex nut and DIN 125 8.4 washer. Before screwing put Tightener on top of the Beam Y. Make sure that Tighteners are facing outwards of the construction and to each other – see picture.  Proceed with screwing three remaining corners with Tighteners.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass6.jpg</image>
+					<image>pics/Frame_Assembly/Frame_Ass7.jpg</image>
+					<image>pics/Frame_Assembly/Frame_Ass8.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>4x DIN 933 M8x120 bolt</part>
+					<part>4x DIN 934 M8 hex nut</part>
+					<part>4x DIN 125 8.4 washer</part>
+					<part>2x Tightener Assembly - Left</part>
+					<part>2x Tightener Assembly - Right</part>
+				</parts>
+			</step>
+			<step>
+				<text>With DIN 933 M8x60 bolts, DIN 934 M8 hex nuts and DIN 125 8.4 washers mount both Turnbuckles in the corners. Use designated holes A3 and A4 on Beam X2 and A3 on Beams Y.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass9.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>4x DIN 933 M8x60 bolt</part>
+					<part>4x DIN 934 M8 hex nut</part>
+					<part>6x DIN 125 8.4 washer</part>
+					<part>2x M6 2x70mm turnbuckle</part>
+				</parts>
+			</step>
+			<step>
+				<text>By turning Turnbuckles we can change angles between beams. Use a machinist's square to make sure that beams are perpendicular to one another.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass10.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Take timing belt and put it under the tightener as shown in picture. Secure them by firmly screwing M6 bolts with M6 hex nuts. Repeat this for both Y axes.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass11.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x 1400mm HTD3M-10mm timing belt</part>
+				</parts>
+			</step>
+			<step>
+				<text>Feed timing belt into the trolleys, so that timing belt sits in timing pulley. Try using narrow screwdriver to position timing belt correctly.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass12.jpg</image>
+					<image>pics/Frame_Assembly/Frame_Ass13.jpg</image>
+					<image>pics/Frame_Assembly/Belt_path.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Tighten timing belts with M6 bolt on tighteners.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass14.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Mount Beam X – Main to the Y Trolleys as shown on picture.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass15.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x Beam X – Main</part>
+				</parts>
+			</step>
+			<step>
+				<text>Take Trolley X and slide it on Beam X – Main in a manner that motor will face Beam X1.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass16.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x Trolley X</part>
+				</parts>
+			</step>
+			<step>
+				<text>Fix the Beam X – Main on Y Trolleys with screwing two DIN 933 M8x50 bolts through holes A1 and A2 on Beam X – Main.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass17.jpg</image>
+					<image>pics/Frame_Assembly/Frame_Ass18.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x DIN 933 M8x50 bolt</part>
+				</parts>
+			</step>
+			<step>
+				<text>For holes A3 and A4 use two DIN 933 M8x55 bolts. Before screwing put on Tighteners with Spacers as shown in picture.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass19.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x DIN 933 M8x55 bolt</part>
+					<part>1x Tightener Assembly - Left</part>
+					<part>1x Tightener Assembly - Right</part>
+					<part>2x Tightener - Spacer</part>
+				</parts>
+			</step>
+			<step>
+				<text>For setting timing belt for X axis put the timing belt through the opening in Tightener Spacer and then repeat the steps 98, 99 and 100.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass20.jpg</image>
+					<image>pics/Frame_Assembly/Frame_Ass21.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x 1400mm HTD3M-10mm timing belt</part>
+				</parts>
+			</step>
+			<step>
+				<text>Mount Z Axis Assembly on four prutruding bolts on Trolley X as shown in picture.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass22.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x Z Axis Assembly</part>
+				</parts>
+			</step>
+			<step>
+				<text>Fasten the Z Axis Assembly with four DIN 934 M8 hex nuts and four DIN 125 8.4 washers.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass23.jpg</image>
+					<image>pics/Frame_Assembly/Frame_Ass24.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>4x DIN 934 M8 hex nut</part>
+					<part>4x DIN 125 8.4 washer</part>
+				</parts>
+			</step>
+			<step>
+				<text>For installing cable chain we can use simple 40x40 L profile aproxemetly  1140 mm long. For drilling mounting holes in L profile it is recommended to measure the distance between holes on opposite Tighteners on X axis. Simply drill 6 mm holes in the right positions and than fix the profile with the same M6 cross bolts that are used for fixing the Tighteners.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass25.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x 40x40x1140 L profile</part>
+				</parts>
+			</step>
+			<step>
+				<text>Fix the one end of the cable chain onto L profile with two M4 bolts and hex nuts. Before that drill two 4 mm holes at suitable position.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass26.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x Cable chain L:1400mm I:25x15mm R:50mm</part>
+					<part>2x DIN 965 M4x12 bolt</part>
+					<part>2x DIN 934 M4 hex nut</part>
+				</parts>
+			</step>
+			<step>
+				<text>For fixing the other end of the cable chain on Trolley X use two L brackets and fix them together as shown in picture. Fasten L brackets on Trolley X as shown in picture.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass27.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x 80x80x30 L bracket</part>
+				</parts>
+			</step>
+			<step>
+				<text>Fasten the cable chain on L bracket with two M4 bolts and hex nuts.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass28.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x DIN 965 M4x12 bolt</part>
+					<part>2x DIN 934 M4 hex nut</part>
+				</parts>
+			</step>
+			<step>
+				<text>Completed assembly of the whole machine.</text>
+				<images>
+					<image>pics/Frame_Assembly/Frame_Ass29.jpg</image>
+					<image>pics/Frame_Assembly/Frame_Ass30.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+		</steps>
+	</module>
+</project>
