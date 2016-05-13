@@ -1,8 +1,7 @@
-markdown: redcarpet
 baseurl: 
 
 
 # gems: 
 #  - jekyll-sitemap
 
-production_url : http://instructions.koruza.net
+production_url : http://instructions.goodenoughcnc.eu
