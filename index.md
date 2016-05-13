@@ -76,8 +76,8 @@ title: "GoodEnoughCNC Documentation"
 <p>Should you need any help with GoodEnoughCNC systems, get in touch with others involved in the project and Institute IRNAS team via:
 
 <ul>
-	<li><a target"_blank" href="https://chat.irnas.eu/">CHAT</a> – Join our chat group for real time collaboration with IRNAS team members and others working on GoodEnoughCNC systems.</li>
-	<li><a target"_blank" href="http://forum.irnas.eu/">FORUM</a> – We recommend using a forum for help, so the information will be preserved.</li>
+	<li><a target="_blank" href="https://chat.irnas.eu/">CHAT</a> – Join our chat group for real time collaboration with IRNAS team members and others working on GoodEnoughCNC systems.</li>
+	<li><a target="_blank" href="http://forum.irnas.eu/">FORUM</a> – We recommend using a forum for help, so the information will be preserved.</li>
 </ul>
 </p>
 </div>
