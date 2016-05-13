@@ -56,7 +56,7 @@ title: "GoodEnoughCNC Documentation"
 				</div>
 				<div class="half-bottom">
 					<h4>Source</h4>
-					<p>Project source documentation is available in <a href="https://github.com/IRNAS/GoodEnoughCNC-PlasmaCutter" target"_blank">GitHub repository GoodEnoughCNC-PlasmaCutter</a>.
+					<p>Project source documentation is available in <a target"_blank" href="https://github.com/IRNAS/GoodEnoughCNC-PlasmaCutter" >GitHub repository GoodEnoughCNC-PlasmaCutter</a>.
 					 <a target="_blank" href="https://github.com/IRNAS/GoodEnoughCNC-PlasmaCutter" class="button btn btn-default btn-success" target="_blank"><i class="fa fa-github"></i>See Documentation</a>
 				</div>
 			</div>
@@ -76,8 +76,8 @@ title: "GoodEnoughCNC Documentation"
 <p>Should you need any help with GoodEnoughCNC systems, get in touch with others involved in the project and Institute IRNAS team via:
 
 <ul>
-	<li><a href="https://chat.irnas.eu/">CHAT</a> – Join our chat group for real time collaboration with IRNAS team members and others working on GoodEnoughCNC systems.</li>
-	<li><a href="http://forum.irnas.eu/">FORUM</a> – We recommend using a forum for help, so the information will be preserved.</li>
+	<li><a target"_blank" href="https://chat.irnas.eu/">CHAT</a> – Join our chat group for real time collaboration with IRNAS team members and others working on GoodEnoughCNC systems.</li>
+	<li><a target"_blank" href="http://forum.irnas.eu/">FORUM</a> – We recommend using a forum for help, so the information will be preserved.</li>
 </ul>
 </p>
 </div>
