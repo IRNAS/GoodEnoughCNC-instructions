@@ -56,7 +56,7 @@ title: "GoodEnoughCNC Documentation"
 				</div>
 				<div class="half-bottom">
 					<h4>Source</h4>
-					<p>Project source documentation is available in <a target"_blank" href="https://github.com/IRNAS/GoodEnoughCNC-PlasmaCutter" >GitHub repository GoodEnoughCNC-PlasmaCutter</a>.
+					<p>Project source documentation is available in <a target="_blank" href="https://github.com/IRNAS/GoodEnoughCNC-PlasmaCutter" >GitHub repository GoodEnoughCNC-PlasmaCutter</a>.
 					 <a target="_blank" href="https://github.com/IRNAS/GoodEnoughCNC-PlasmaCutter" class="button btn btn-default btn-success" target="_blank"><i class="fa fa-github"></i>See Documentation</a>
 				</div>
 			</div>
