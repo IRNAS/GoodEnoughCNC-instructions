@@ -11,7 +11,7 @@ title: "GoodEnoughCNC Documentation"
 	<div class="col-xs-12">
 		<div class="col-bg-top">
 			<div class="left">
-			<p>Step by step assembly instructions for GoodEnoughCNC machines is best to be used with a assembly kits available at <a href="http://fabrikor.eu/index.php?route=product/category&path=60" target="_blank">Fabrikor</a>.</p>
+			<p>Step by step assembly instructions for GoodEnoughCNC machines is best to be used with assembly kits available at <a href="http://fabrikor.eu/index.php?route=product/category&path=60" target="_blank">Fabrikor</a>.</p>
 			</div>
 			<div class="right">
 			<a href="http://fabrikor.eu/index.php?route=product/category&path=60" class="button btn btn-default btn-success" target="_blank">Order Kit</a>
