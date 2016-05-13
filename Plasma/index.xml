@@ -18,7 +18,22 @@
 		<name>Guide for Drilling Holes</name>
 		<steps>
 			<step>
-				<text>Before using these instruction it is recommended to read this guide for drilling holes. This guide shows how to drill most of the holes on steel beams and other parts needed for this CNC machine. For marking position of the hole, first measure the distance with ruler from reference point to center of the hole in both X and Y axis.</text>
+				<text>Before using these instruction it is recommended to read this guide for drilling holes. This guide shows how to drill most of the holes on steel beams and other parts needed for this CNC machine. In the picture there are all necessary tools for drilling holes.</text>
+				<images>
+					<image>pics/Drilling_Holes/Tools1.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>Ruler</part>
+					<part>Carpenter's ruler</part>
+					<part>Scribe for marking lines</part>
+					<part>Center punch</part>
+					<part>Hammer</part>
+					<part>8, 6, and 4 mm drills</part>
+				</parts>
+			</step>
+			<step>
+				<text>With ruler measure the distance from reference point to center of the hole in both X and Y axis.</text>
 				<images>
 					<image>pics/Drilling_Holes/Holes1.jpg</image>
 					<image>pics/Drilling_Holes/Holes2.jpg</image>
@@ -169,7 +184,7 @@
 				</parts>
 			</step>
 			<step>
-				<text>To make threaded holes, firstly drill the hole aproximately 15% smaller than the nominal value. Then use a hand tap to cut in a thread. It is recommended using machine grease to reduse friction, so that a tap does not brake. When rotating a tap make sure that it is perpendicular to the surface. Verify the threaded hole with associated bolt.</text>
+				<text>To make threaded holes, firstly drill the hole aproximately 15% smaller than the nominal value. Then use a hand tap to cut in a thread. It is recommended using machine grease to reduse friction, so that a tap does not brake. When rotating a tap make sure that it is perpendicular to the surface. Verify the threaded hole with associated bolt. Instead of making threaded holes, we can use additional hex nut, which is added to the inner side of the Beam Short.</text>
 				<images>
 					<image>pics/Trolley/Trolley9.jpg</image>
 					<image>pics/Trolley/Trolley10.jpg</image>
@@ -442,6 +457,19 @@
 		<name>Trolley Assembly</name>
 		<steps>
 			<step>
+				<text>In the picture there are all necessary tools for Trolley assembly.</text>
+				<images>
+					<image>pics/Trolley_Assembly/Tools2.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>Phillips screwdriver</part>
+					<part>Spanners - sizes: two 13, 10, 8</part>
+					<part>Allen key - size: 1.5</part>
+					<part>Caliper</part>
+				</parts>
+			</step>
+			<step>
 				<text>Take NEMA 23 Stepper motor and mount timing pully onto motor axis. Distance between motor casing and timing pully edge should be around 1 mm.</text>
 				<images>
 					<image>pics/Trolley_Assembly/Trolley_Ass1.jpg</image>
@@ -655,6 +683,17 @@
 		<name>Tightener Assembly</name>
 		<steps>
 			<step>
+				<text>In the picture there are all necessary tools for Tightener assembly.</text>
+				<images>
+					<image>pics/Tightener_Assembly/Tools3.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>Phillips screwdriver</part>
+					<part>Spanner - size: 10</part>
+				</parts>
+			</step>
+			<step>
 				<text>Put DIN 934 M6 hex nut into nut bracket in part Tightener – Outer. Make sure it fits tightly, if not try cutting excess plastic on edges. This step is needed for only three Tighteners.</text>
 				<images>
 					<image>pics/Tightener_Assembly/Tightener_Ass1.jpg</image>
@@ -734,6 +773,21 @@
 	<module> <!-- Z Axis Assembly -->
 		<name>Z Axis Assembly</name>
 		<steps>
+			<step>
+				<text>In the picture there are all necessary tools for Z Axis assembly.</text>
+				<images>
+					<image>pics/Z_Axis_Assembly/Tools4.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>Torx screwdriver - size: T10</part>
+					<part>Phillips screwdriver</part>
+					<part>Spanners - sizes: two 13</part>
+					<part>Allen keys - sizes: 2, 2.5, 3</part>
+					<part>Pliers</part>
+					<part>Hammer</part>
+				</parts>
+			</step>
 			<step>
 				<text>Put 12mm round rod (270 mm in length) into round notch on printed part Linear guide mount. Do this on both ends of the rod. Make sure that the orientation of the Linear guide mounts is the same. Do this step two times.</text>
 				<images>
@@ -998,6 +1052,19 @@
 	<module> <!-- Frame Assembly -->
 		<name>Frame Assembly</name>
 		<steps>
+			<step>
+				<text>In the picture there are all necessary tools for Frame assembly.</text>
+				<images>
+					<image>pics/Frame_Assembly/Tools5.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>Phillips screwdriver</part>
+					<part>Spanners - sizes: two 13, 10</part>
+					<part>Pliers</part>
+					<part>Machinist's Square</part>
+				</parts>
+			</step>
 			<step>
 				<text>Put Beam X1 and Beam X2 onto assembly table approximately 1160mm apart to each other in a fashion that A3 and A4 holes on Beam X2 are facing inwards. Put both Beams Y on prepared Beams X1 and X2 in a fashion that A3 holes on Beams Y are facing inwards Make sure that the holes for mounting Turnbuckle will be in the same corner – see picture.</text>
 				<images>
