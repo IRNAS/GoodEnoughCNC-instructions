@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-	<name>GoodEnoughCNC hybrid</name>
+	<name>GoodEnoughCNC Plasma Cutter</name>
 	<module> <!-- Intro -->
 		<name>Intro</name>
 		<steps>
 			<step>
-				<text>Follow this step-by-step assembly instructions to build your GoodEnoughCNC hybrid.
+				<text>Follow this step-by-step assembly instructions to build your GoodEnoughCNC Plasma Cutter.
 				Perform each step following assembly step description with photo demonstration. Video tutorials for each step will be included shortly. We highly recommend you follow the assembling steps in the suggested order.</text>
 				<images>
 					<image>pics/intro.jpg</image>
