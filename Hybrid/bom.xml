@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom>
+    <module> <!-- Steal Beams and Plates -->
+        <module-name>Steal Beams and Plates</module-name>
+        <part>
+            <name>Beam X1</name>
+            <id>SBP-1</id>
+            <q>1</q>
+			<text>SHS 40x40x3x1200</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Beam X2</name>
+            <id>SBP-2</id>
+            <q>1</q>
+			<text>SHS 40x40x3x1200</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Beam X - Main</name>
+            <id>SBP-3</id>
+            <q>1</q>
+			<text>SHS 40x40x3x1200</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Beam Y</name>
+            <id>SBP-4</id>
+            <q>2</q>
+			<text>SHS 40x40x3x1200</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>L Profile - Chain Support</name>
+            <id>SBP-5</id>
+            <q>1</q>
+			<text>L Profile 40x40x3x1200</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Beam Short X</name>
+            <id>SBP-6</id>
+            <q>1</q>
+			<text>SHS 100x100x3x130</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Beam Short Y1</name>
+            <id>SBP-7</id>
+            <q>1</q>
+			<text>SHS 100x100x3x130</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Beam Short Y2</name>
+            <id>SBP-8</id>
+            <q>1</q>
+			<text>SHS 100x100x3x130</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Aluminum profile</name>
+            <id>SBP-9</id>
+            <q>2</q>
+			<text>X Profile 30x30x300</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Bearing plate</name>
+            <id>SBP-10</id>
+            <q>1</q>
+			<text>5mm Plate</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Motor plate</name>
+            <id>SBP-11</id>
+            <q>1</q>
+			<text>5mm Plate</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Bottom plate</name>
+            <id>SBP-12</id>
+            <q>1</q>
+			<text>5mm plate</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Bracket for tighteners - left</name>
+            <id>SBP-13</id>
+            <q>3</q>
+			<text>L Profile 40x40x4x80</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Bracket for tighteners - right</name>
+            <id>SBP-14</id>
+            <q>3</q>
+			<text>L Profile 40x40x4x80</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>L Bracket - Chain Support</name>
+            <id>SBP-15</id>
+            <q>2</q>
+			<text>L Bracket 80x80</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+    </module>
+	<module> <!-- Bolts, Nuts and Washers -->
+        <module-name>Bolts, Nuts and Washers</module-name>
+		<part>
+            <name>DIN 933 M8x140</name>
+            <id>BNW-1</id>
+            <q>2</q>
+			<text>M8 Hex Bolt</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 933 M8x120</name>
+            <id>BNW-2</id>
+            <q>22</q>
+			<text>M8 Hex Bolt</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 933 M8x60</name>
+            <id>BNW-3</id>
+            <q>6</q>
+			<text>M8 Hex Bolt</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 933 M8x55</name>
+            <id>BNW-4</id>
+            <q>2</q>
+			<text>M8 Hex Bolt</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 933 M8x50</name>
+            <id>BNW-5</id>
+            <q>8</q>
+			<text>M8 Hex Bolt</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 933 M8x25</name>
+            <id>BNW-6</id>
+            <q>4</q>
+			<text>M8 Hex Bolt</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 933 M8x20</name>
+            <id>BNW-7</id>
+            <q>16</q>
+			<text>M8 Hex Bolt</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 7985 M6x50</name>
+            <id>BNW-8</id>
+            <q>4</q>
+			<text>M6 Cross Bolt</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 7985 M6x25</name>
+            <id>BNW-9</id>
+            <q>15</q>
+			<text>M6 Cross Bolt</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 7985 M5x25</name>
+            <id>BNW-10</id>
+            <q>12</q>
+			<text>M5 Cross Bolt</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 912 M4x16</name>
+            <id>BNW-11</id>
+            <q>4</q>
+			<text>M4 Hex Socket Bolt</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 912 M3x35</name>
+            <id>BNW-12</id>
+            <q>1</q>
+			<text>M3 Hex Socket Bolt</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 912 M3x16</name>
+            <id>BNW-13</id>
+            <q>1</q>
+			<text>M3 Hex Socket Bolt</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>ISO 14583 M3x12</name>
+            <id>BNW-14</id>
+            <q>12</q>
+			<text>M3 Torx Bolt</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 7996 4.5x50</name>
+            <id>BNW-15</id>
+            <q>4</q>
+			<text>Wood Cross Screw</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 934 M8 8.8</name>
+            <id>BNW-16</id>
+            <q>101</q>
+			<text>M8 Hex Nut</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 934 M6 8.8</name>
+            <id>BNW-17</id>
+            <q>15</q>
+			<text>M6 Hex Nut</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 934 M5 8.8</name>
+            <id>BNW-18</id>
+            <q>36</q>
+			<text>M5 Hex Nut</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 934 M4 8.8</name>
+            <id>BNW-19</id>
+            <q>4</q>
+			<text>M4 Hex Nut</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 934 M3 8.8</name>
+            <id>BNW-20</id>
+            <q>13</q>
+			<text>M3 Hex Nut</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 562 M8</name>
+            <id>BNW-21</id>
+            <q>6</q>
+			<text>M8 Square nut</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 562 M3</name>
+            <id>BNW-22</id>
+            <q>1</q>
+			<text>M3 Square nut</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 125 8.4 </name>
+            <id>BNW-23</id>
+            <q>72</q>
+			<text>M8 Washer</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 125 6.4</name>
+            <id>BNW-24</id>
+            <q>12</q>
+			<text>M6 Washer</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 125 5.3</name>
+            <id>BNW-25</id>
+            <q>16</q>
+			<text>M5 Washer</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 125 3.2</name>
+            <id>BNW-26</id>
+            <q>4</q>
+			<text>M3 Washer</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>DIN 127 8.5</name>
+            <id>BNW-27</id>
+            <q>36</q>
+			<text>M8 Spring Washer</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+    </module>
+	<module> <!-- 3D Printed Parts -->
+        <module-name>3D Printed Parts</module-name>
+		<part>
+            <name>Tightener - Outer</name>
+            <id>PR-1</id>
+            <q>6</q>
+			<text>Tightener - Outer.STL</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Tightener - Spacer</name>
+            <id>PR-2</id>
+            <q>2</q>
+			<text>Tightener - Spacer.STL</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Linear guide mount</name>
+            <id>PR-3</id>
+            <q>4</q>
+			<text>Linear guide mount.STL</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Nut casing - Upper</name>
+            <id>PR-4</id>
+            <q>1</q>
+			<text>Nut casing - Upper.STL</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Nut casing - Bottom</name>
+            <id>PR-5</id>
+            <q>1</q>
+			<text>Nut casing - Bottom.STL</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Torch mount</name>
+            <id>PR-6</id>
+            <q>1</q>
+			<text>Torch mount.STL</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+    </module>
+	<module> <!-- Other -->
+        <module-name>Other Parts</module-name>
+		<part>
+            <name>Bearing 608ZZ</name>
+            <id>OTH-1</id>
+            <q>18</q>
+			<text>Ball Bearing outer diam. 22</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Bearing F608Z</name>
+            <id>OTH-2</id>
+            <q>12</q>
+			<text>Belt Ball Bearing outer diam. 22</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Flanged Timing Pulley</name>
+            <id>OTH-3</id>
+            <q>3</q>
+			<text>16 teeth HTD3M/16 or DIN 7721 T5/16</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Micro switch</name>
+            <id>OTH-4</id>
+            <q>4</q>
+			<text>Micro End Switch</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>NEMA 17 Stepper Motor</name>
+			<id>OTH-5</id>
+			<q>1</q>
+			<text> </text>
+			<img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>NEMA 23 Stepper Motor</name>
+            <id>OTH-6</id>
+            <q>3</q>
+			<text> </text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Linear guide fi12x270</name>
+            <id>OTH-7</id>
+            <q>2</q>
+			<text>Steel round rod</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Rod M8x200</name>
+            <id>OTH-8</id>
+            <q>1</q>
+			<text>M8 Rod</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Coupler 5 to 8 mm</name>
+            <id>OTH-9</id>
+            <q>1</q>
+			<text>Flexible shaft coupler</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Turnbuckle M6</name>
+            <id>OTH-10</id>
+            <q>2</q>
+			<text>M6 2x Eye70 mm</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Screw Anchor fi10</name>
+            <id>OTH-11</id>
+            <q>4</q>
+			<text>Plasterboard Anchor</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Timing Belt</name>
+            <id>OTH-12</id>
+            <q>3</q>
+			<text>HTD3M or T5, width 10, length 1400</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+		<part>
+            <name>Cable Chain</name>
+            <id>OTH-13</id>
+            <q>1</q>
+			<text>length 1400, inner size 25x15, radius 50</text>
+            <img>pics/carriages/IMG_20151221_110851.jpg</img>
+        </part>
+    </module>
+</bom>
