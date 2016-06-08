@@ -52,6 +52,16 @@
 				<video>video/dummy.mp4</video>
 			</step>
 			<step>
+				<text>Cut the timing belt. You will need four pieces, two 775mm long and two 789mm long pieces.</text>
+				<images>
+					<image>pics/bom/IMG_20151214_151412.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>GT2 timing belt</part>
+				</parts>
+			</step>
+			<step>
 				<text>In the next steps the assembly of one carriage will be described. The steps have to be repeated four times to assemble four carriages that are required in the 3D printer.</text>
 				<images>
 					<image>pics/carriages/IMG_20160412_124257.jpg</image>
@@ -107,7 +117,6 @@
 				</images>
 				<video>video/dummy.mp4</video>
 				<parts>
-					<part>GT2 timing belt</part>
 					<part>4x TORX screw M3x35</part>
 				</parts>
 			</step>
@@ -227,7 +236,7 @@
 				</images>
 				<video>video/dummy.mp4</video>
 				<parts>
-					<part>4x phillips screw M3x10</part>
+					<part>4x TORX screw M3x10</part>
 				</parts>
 			</step>
 			<step>
@@ -868,7 +877,7 @@
 			<step>
 				<text>Take the longer four smooth rods fi8 and insert them through pillow block ball bearings on the housing. The shorter two are laying on the x axis and the longer two on the y axis.</text>
 				<images>
-					<image>pics/housing/IMG_20151228_125214.jpg</image>
+					<image>pics/bom/IMG_20151228_125214.jpg</image>
 				</images>
 				<video>video/dummy.mp4</video>
 				<parts>
@@ -922,7 +931,7 @@
 				<text>Take the assembled print bed and place it inside the housing. Take the longer two smooth rods fi12 and slide them from the top of the housing through the holes in the housing top and through the linear ball bearings. Attach the rod z cover parts on the top of the smooth rods to secure them in place.</text>
 				<images>
 					<image>pics/housing/IMG_20160224_094524.jpg</image>
-					<image>pics/housing/IMG_20160224_094600.jpg</image>
+					<image>pics/bom/IMG_20160224_094600.jpg</image>
 					<image>pics/housing/IMG_20160224_094617.jpg</image>
 					<image>pics/housing/IMG_20160224_094700.jpg</image>
 					<image>pics/housing/IMG_20160224_100551.jpg</image>
@@ -940,7 +949,7 @@
 			<step>
 				<text>Take the shorter two smooth rods fi12 and slide them from the bottom of the housing through the holes in the housing bottom and through the front linear ball bearings. Attach the rod z cover parts to secure the smooth rods in place. Tighten the TORX screws on the rod z holder parts.</text>
 				<images>
-					<image>pics/housing/IMG_20160224_094600.jpg</image>
+					<image>pics/bom/IMG_20160224_094600.jpg</image>
 					<image>pics/housing/IMG_20160224_100955.jpg</image>
 					<image>pics/housing/IMG_20160224_101104.jpg</image>
 					<image>pics/housing/IMG_20160224_101426.jpg</image>
@@ -994,7 +1003,7 @@
 			<step>
 				<text>Attach the print head on the housing with the shortest two smooth rods fi8. Secure them in place with the carriage rod cover parts and TORX screws. Connect the bowden to the print head</text>
 				<images>
-					<image>pics/housing/IMG_20160224_210826.jpg</image>
+					<image>pics/bom/IMG_20160224_210826.jpg</image>
 					<image>pics/housing/IMG_20160224_210859.jpg</image>
 					<image>pics/housing/IMG_20160224_210959.jpg</image>
 					<image>pics/housing/IMG_20160224_211500.jpg</image>
@@ -1030,7 +1039,7 @@
 		<name>Electronics</name>
 		<steps>
 			<step>
-				<text>Prepare the 24V power supply for the heated bed and attach the custom relay for heated bed.</text>
+				<text>Prepare the 24V power supply for the heated bed and attach the custom relay for heated bed. Make sure that the power supply is set to 240V!</text>
 				<images>
 					<image>pics/bom/IMG_20151214_143610.jpg</image>
 					<image>pics/bom/IMG_20151214_143727.jpg</image>
@@ -1175,29 +1184,27 @@
 				<video>video/dummy.mp4</video>
 			</step>
 			<step>
-				<text>Prepare the 240V IEC inlet and two 5A fuses. Insert the fuses in the IEC inlet as seen in the picture.</text>
+				<text>Prepare the 240V IEC inlet.</text>
 				<images>
 					<image>pics/bom/IMG_20151214_143237.jpg</image>
-					<image>pics/bom/IMG_20160107_120848.jpg</image>
-					<image>pics/electronics/IMG_20160107_121135.jpg</image>
-					<image>pics/electronics/IMG_20160107_121208.jpg</image>
 				</images>
 				<video>video/dummy.mp4</video>
 				<parts>
 					<part>1x 240V IEC inlet</part>
-					<part>2x fuse 5A</part>
 				</parts>
 			</step>
 			<step>
-				<text>Prepare 1.5mm&#178; cable, 10cm in lenght. Crimp blade connectors on both sides of the cable using terminal crimping tool as seen in the picture.</text>
+				<text>Prepare two 1.5mm&#178; cables, 10cm in lenght. Crimp blade connectors on both sides of both cable using terminal crimping tool as seen in the picture.</text>
 				<images>
 					<image>pics/electronics/IMG_20160107_121631.jpg</image>
 					<image>pics/electronics/IMG_20160107_121731.jpg</image>
+					<image>pics/electronics/IMG_20160107_121742.jpg</image>
 				</images>
 				<video>video/dummy.mp4</video>
 				<parts>
 					<part>10cm 1.5mm&#178; cable</part>
-					<part>2x blade connector</part>
+					<part>10cm 1.5mm&#178; cable</part>
+					<part>4x blade connector</part>
 				</parts>
 			</step>
 			<step>
@@ -1208,42 +1215,26 @@
 				<video>video/dummy.mp4</video>
 			</step>
 			<step>
-				<text>Prepare two 1.5mm&#178; cables, 10cm and 20cm in lenght. Crimp a blade connector on one side of the 10cm cable using terminal crimping tool. Crimp a ferrule terminal on one side of the 20cm cable using ferrule crimping tool. Join other sides of both cables together and crimp a blade connector on the cables using terminal crimping tool as seen in the picture.</text>
+				<text>Connect the other two pins of the IEC inlet with the other cable as seen in the picture.</text>
 				<images>
-					<image>pics/electronics/IMG_20160107_122047.jpg</image>
-					<image>pics/electronics/IMG_20160107_122328.jpg</image>
-					<image>pics/electronics/IMG_20160107_122401.jpg</image>
-					<image>pics/electronics/IMG_20160107_122447.jpg</image>
-					<image>pics/electronics/IMG_20160107_122637.jpg</image>
-				</images>
-				<video>video/dummy.mp4</video>
-				<parts>
-					<part>10cm 1.5mm&#178; cable</part>
-					<part>20cm 1.5mm&#178; cable</part>
-					<part>2x blade connector</part>
-					<part>1x ferrule terminal</part>
-				</parts>
-			</step>
-			<step>
-				<text>Connect the cable on the IEC inlet as seen in the picture.</text>
-				<images>
-					<image>pics/electronics/IMG_20160107_122655.jpg</image>
-					<image>pics/electronics/IMG_20160107_122702.jpg</image>
+					<image>pics/electronics/IMG_20160107_121801.jpg</image>
 				</images>
 				<video>video/dummy.mp4</video>
 			</step>
 			<step>
-				<text>Prepare two 1.5mm&#178; cables, 20cm in lenght. Crimp a blade connector on one side of each cable using terminal crimping tool and a ferrule terminal on other side of each cable using ferrule crimping tool as seen in the picture.</text>
+				<text>Prepare three 1.5mm&#178; cables, 20cm in lenght. Crimp a blade connector on one side of each cable using terminal crimping tool and a ferrule terminal on other side of each cable using ferrule crimping tool as seen in the picture.</text>
 				<images>
 					<image>pics/electronics/IMG_20160107_122725.jpg</image>
+					<image>pics/electronics/IMG_20160107_122755.jpg</image>
 					<image>pics/electronics/IMG_20160107_122813.jpg</image>
 				</images>
 				<video>video/dummy.mp4</video>
 				<parts>
 					<part>20cm 1.5mm&#178; cable</part>
 					<part>20cm 1.5mm&#178; cable</part>
-					<part>2x blade connector</part>
-					<part>2x ferrule terminal</part>
+					<part>20cm 1.5mm&#178; cable</part>
+					<part>3x blade connector</part>
+					<part>3x ferrule terminal</part>
 				</parts>
 			</step>
 			<step>
@@ -1264,8 +1255,8 @@
 				</images>
 				<video>video/dummy.mp4</video>
 				<parts>
-					<part>2x phillips screw M3x16</part>
-					<part>2x M3 washer</part>
+					<part>2x TORX screw M3x16</part>
+					<part>4x M3 washer</part>
 					<part>2x M3 nut</part>
 				</parts>
 			</step>
