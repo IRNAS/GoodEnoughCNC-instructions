@@ -10,7 +10,7 @@ Should you need any support with GoodEnoughCNC machines, get in touch with Insti
 
 ##Buy / Make
 
-[![buy-make-goodenoughcnc](img/build-goodenoughcnc.png)]
+![buy-make-goodenoughcnc](img/build-goodenoughcnc.png)
 
 You can order GoodEnoughCNC Plasma KIT from our partner company [Fabrikor](http://fabrikor.eu/index.php?route=product/category&path=60).
 
