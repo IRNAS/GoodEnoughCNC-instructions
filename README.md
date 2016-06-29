@@ -8,7 +8,10 @@ Live version of this repository with step-by-step assembly instructions is avail
 
 Should you need any support with GoodEnoughCNC machines, get in touch with Institute IRNAS team and others involved in the project via [chat](https://chat.irnas.eu/) or [forum](http://forum.irnas.eu/).
 
-##Buy
+##Buy / Make
+
+[![buy-make-goodenoughcnc](img/build-goodenoughcnc.png)]
+
 You can order GoodEnoughCNC Plasma KIT from our partner company [Fabrikor](http://fabrikor.eu/index.php?route=product/category&path=60).
 
 ---
