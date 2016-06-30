@@ -35,7 +35,7 @@
             <id>SBP-5</id>
             <q>1</q>
 			<text>L Profile 40x40x3x1200</text>
-            
+            <img>pics/BOM/no-image.jpg</img>
         </part>
 		<part>
             <name>Beam Short X</name>
@@ -91,14 +91,14 @@
             <id>SBP-13</id>
             <q>6</q>
 			<text>3mm plate</text>
-            
+            <img>pics/BOM/no-image.jpg</img>
         </part>
 		<part>
             <name>U profile - Chain Support</name>
             <id>SBP-14</id>
             <q>1</q>
 			<text>Aluminum U profile</text>
-            
+            <img>pics/BOM/no-image.jpg</img>
         </part>
     </module>
 	<module> <!-- Bolts, Nuts and Washers -->
@@ -286,7 +286,7 @@
             <id>PR-6</id>
             <q>1</q>
 			<text>Torch mount.STL</text>
-            
+            <img>pics/BOM/no-image.jpg</img>
         </part>
     </module>
 	<module> <!-- Other -->
@@ -359,7 +359,7 @@
             <id>OTH-11</id>
             <q>4</q>
 			<text>Plasterboard Anchor</text>
-            
+            <img>pics/BOM/no-image.jpg</img>
         </part>
 		<part>
             <name>Timing Belt</name>
