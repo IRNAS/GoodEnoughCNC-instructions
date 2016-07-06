@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-	<name>GoodEnoughCNC Plasma Cutter</name>
+	<name>GoodEnoughCNC Hybrid</name>
 	<module> <!-- Intro -->
 		<name>Intro</name>
 		<steps>
