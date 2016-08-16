@@ -1,7 +1,7 @@
 body{
 	font-family:'Arial', 'Helvetica', sans-serif;
 	font-size:16px;
-	
+	margin-bottom:0px;	
 }
 
 .col-bg, .col-bg-top{
@@ -125,4 +125,127 @@ padding:10px;
 
 .half-right{
 	font-size:14px;
+}
+
+.col-left, .col-right{
+  padding:0px !important;
+  margin:0px !important;
+}
+
+
+.col-left img, .col-right img{
+  width:100%;
+
+
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content1{
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.content .content-overlay, .content1 .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+  overflow: hidden;
+}
+
+.content:hover .content-overlay, .content1:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+  overflow: hidden;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+    overflow: hidden;
+}
+
+.content:hover .content-details, .content1:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-size:1.8em;
+}
+
+
+.content-details p{
+ padding:0 5%;
+ color: #fff;
+ font-size: 1.2em;
+}
+
+footer{
+background-color: #F5F5F5;
+font-size:14px;
+padding:50px 50px 20px;
+margin-top:30px;
+margin-bottom:0px;
+}
+
+.fa{
+	font-size:30px !important;
+}
+
+li{
+	list-style:none;
+}
+
+ul{
+	padding-left:0px;
+}
+
+
+a{
+	text-decoration: none !important;
+}
+
+h3{
+	text-transform:uppercase;
+	margin-top:50px;
+}
+
+.container .col-sm-6{
+	margin-bottom:80px;
 }

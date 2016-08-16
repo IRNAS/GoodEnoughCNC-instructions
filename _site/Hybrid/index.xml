@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-	<name>GoodEnoughCNC hybrid</name>
+	<name>GoodEnoughCNC Hybrid</name>
 	<module> <!-- Intro -->
 		<name>Intro</name>
 		<steps>
 			<step>
-				<text>Follow this step-by-step assembly instructions to build your GoodEnoughCNC hybrid.
+				<text>Follow this step-by-step assembly instructions to build your GoodEnoughCNC Plasma Cutter.
 				Perform each step following assembly step description with photo demonstration. Video tutorials for each step will be included shortly. We highly recommend you follow the assembling steps in the suggested order.</text>
 				<images>
 					<image>pics/intro.jpg</image>
@@ -1287,6 +1287,295 @@
 				</images>
 				<video>video/dummy.mp4</video>
 				<parts>
+				</parts>
+			</step>
+		</steps>
+	</module>
+	<module> <!-- Electronics -->
+		<name>Electronics</name>
+		<steps>
+			<step>
+				<text>Last part of the guide describes the installation of the necessary electronics for operating GoodEnoughCNC. There are many ways on how to wire our CNC. We used our own Toslink system.</text>
+				<images>
+					<image>pics/Electronics/Electronics1.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>There are one Toslink board and one motor driver for each motor. For housing electronics for each motor we used 3D printed boxes. For fastening the boxes on motors there are three additional printed Fasteners.</text>
+				<images>
+					<image>pics/Electronics/Electronics2.jpg</image>
+					<image>pics/Electronics/Electronics3.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Redrill 3 mm holes on the covers. Repeat this step four times.</text>
+				<images>
+					<image>pics/Electronics/Electronics4.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>4x Electronics box cover</part>
+				</parts>
+			</step>
+			<step>
+				<text>116. Redrill holes on the box with 2.5 mm drill or make M3 threaded holes. The depth of the holes should be around 15 mm. Repeat this step four times.</text>
+				<images>
+					<image>pics/Electronics/Electronics5.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>4x Electronics box</part>
+				</parts>
+			</step>
+			<step>
+				<text>Redrill four smaller holes with 3 mm drill. For bigger hole use 4.5 mm drill or make M5 threaded hole. Repeat this step three times.</text>
+				<images>
+					<image>pics/Electronics/Electronics6.jpg</image>
+					<image>pics/Electronics/Electronics7.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>3x Electronics box fastener</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put four M3x12 torx bolts into Fastener.</text>
+				<images>
+					<image>pics/Electronics/Electronics8.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>12x ISO 14583 M3x12 torx bolt</part>
+				</parts>
+			</step>
+			<step>
+				<text>Screw together the Fastener and the Electornics box with four M3 hex nuts. Repeat this step three times.</text>
+				<images>
+					<image>pics/Electronics/Electronics9.jpg</image>
+					<image>pics/Electronics/Electronics10.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>12x DIN 934 M3 hex nut</part>
+				</parts>
+			</step>
+			<step>
+				<text>Slide the connected motor driver and Toslink board into the designated grooves on the Electronics box. Repeat this step four times.</text>
+				<images>
+					<image>pics/Electronics/Electronics11.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Fasten the Cover of the box with four M3x12 torx bolts. Repeat this step four times. Make sure to label in which boxes are boards for Y1, Y2, X and Z axis.</text>
+				<images>
+					<image>pics/Electronics/Electronics12.jpg</image>
+					<image>pics/Electronics/Electronics13.jpg</image>
+					<image>pics/Electronics/Electronics14.jpg</image>
+					<image>pics/Electronics/Electronics15.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>16x ISO 14583 M3x12 torx bolt</part>
+				</parts>
+			</step>
+			<step>
+				<text>Fasten the boxes on motors with any M5 bolt. Make sure that the right boxes are on the right Trolleys. Fasten the Electornics box for Z axis with two simple cable ties that run through holes on the back of the box.</text>
+				<images>
+					<image>pics/Electronics/Electronics16.jpg</image>
+					<image>pics/Electronics/Electronics17.jpg</image>
+					<image>pics/Electronics/Electronics18.jpg</image>
+					<image>pics/Electronics/Electronics19.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>3x DIN 7985 M5x25</part>
+				</parts>
+			</step>
+			<step>
+				<text>For wiring the CNC we need 1.5 mm2 and 0.75 mm2 cables for power supply and optical cables for Toslink. Cable for power supply is cut to required length concurrently. Required lengths of the optical cables are 0.5m, 1.5m, 2m, 2.5m and 5m, one of each.</text>
+				<images>
+					<image>pics/Electronics/Electronics20.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>At the every end of the power supply cable use wire ferrules.</text>
+				<images>
+					<image>pics/Electronics/Electronics21.jpg</image>
+					<image>pics/Electronics/Electronics22.jpg</image>
+					<image>pics/Electronics/Electronics23.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Start wiring the motors to the driver boards. Use wire ferrules. The correct order from left to right is green, black, blue and red. Do this for all motors with the exception for Y2, where green and black wire must be switched.</text>
+				<images>
+					<image>pics/Electronics/Electronics24.jpg</image>
+					<image>pics/Electronics/Electronics25.jpg</image>
+					<image>pics/Electronics/Electronics26.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Put thin 0.75 mm2 wire from Y1 through the Beam X – Main to Y2. Connect the end of the wire to Y2.</text>
+				<images>
+
+					<image>pics/Electronics/Electronics27.jpg</image>
+					<image>pics/Electronics/Electronics28.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x 1.4m 0.75mm2 cable</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put another 0.75 mm2 wire from Y1 through cable chain. Leave approximately 15 cm of extra cable.</text>
+				<images>
+					<image>pics/Electronics/Electronics29.jpg</image>
+					<image>pics/Electronics/Electronics30.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x 1.5m 0.75mm2 cable</part>
+				</parts>
+			</step>
+			<step>
+				<text>Connect the two wires at Y1 together on the same side of wire connector.</text>
+				<images>
+					<image>pics/Electronics/Electronics31.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>On the other side of wire connector link together one thin 0.75 mm2 cable and one thick 1.5 mm2 cable. The thin cable goes to Y1 motor driver. The thick cable goes to the main power supply.</text>
+				<images>
+					<image>pics/Electronics/Electronics32.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x 2.5m 1.5mm2 cable</part>
+					<part>1x 0.2m 0.75mm2 cable</part>
+				</parts>
+			</step>
+			<step>
+				<text>To the cable at the end of the cable chain add two additional cables with cable connector. One runs to the X motor driver and one runs to Z motor driver. Make sure that the cable to the Z motor is long enough.</text>
+				<images>
+					<image>pics/Electronics/Electronics33.jpg</image>
+					<image>pics/Electronics/Electronics34.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x 0.3m 0.75mm2 cable</part>
+				</parts>
+			</step>
+			<step>
+				<text>On the pictures is shown the correct order of cables on the motor driver for Y1.</text>
+				<images>
+					<image>pics/Electronics/Electronics35.jpg</image>
+					<image>pics/Electronics/Electronics36.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>On the pictures is shown the correct order of cables on the motor drivers for Y2.</text>
+				<images>
+					<image>pics/Electronics/Electronics37.jpg</image>
+					<image>pics/Electronics/Electronics38.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>On the pictures is shown the correct order of cables on the motor drivers for X.</text>
+				<images>
+					<image>pics/Electronics/Electronics39.jpg</image>
+					<image>pics/Electronics/Electronics40.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>On the pictures is shown the correct order of cables on the motor drivers for Z.</text>
+				<images>
+					<image>pics/Electronics/Electronics41.jpg</image>
+					<image>pics/Electronics/Electronics42.jpg</image>
+					<image>pics/Electronics/Electronics43.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>In the end, wire all Toslinks receivers with optical cables. Toslink receivers have one input receptacle in the middle and two output receptacles on the sides. you can find more details about Toslink for CNC here: https://github.com/IRNAS/ToslinkCNC</text>
+				<images>
+					<image>pics/Electronics/Diagram_Toslink.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Start at the Y1. 2.5 m long optical cable from Transmitter goes in the middle receptacle on the Toslink board as input. From both left and right output receptacles go two cables.</text>
+				<images>
+					<image>pics/Electronics/Electronics44.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x 2.5m optical cable</part>
+				</parts>
+			</step>
+			<step>
+				<text>First output optical cable from Y1 receiver is 1.5 m long and goes to Y2 receiver through Beam X – Main.</text>
+				<images>
+					<image>pics/Electronics/Electronics45.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x 1.5m optical cable</part>
+				</parts>
+			</step>
+			<step>
+				<text>Second output optical cable from Y1 receiver is 2 m long and goes to X receiver through cable chain.</text>
+				<images>
+					<image>pics/Electronics/Electronics46.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x 2m optical cable</part>
+				</parts>
+			</step>
+			<step>
+				<text>From X receiver goes 0.5 m long optical cable to Z receiver. From the Z receiver goes 5 m long optical cable back to Transmitter through cable chain as return link.</text>
+				<images>
+					<image>pics/Electronics/Electronics47.jpg</image>
+					<image>pics/Electronics/Electronics48.jpg</image>
+					<image>pics/Electronics/Electronics49.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x 0.5m optical cable</part>
+					<part>1x 5m optical cable</part>
 				</parts>
 			</step>
 		</steps>
