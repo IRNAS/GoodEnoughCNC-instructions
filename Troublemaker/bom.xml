@@ -383,13 +383,13 @@
 		<part>
             <name>Stepper spacer cables</name>
             <id>PL-15</id>
-            <q>2</q>
+            <q>3</q>
             <img>pics/housing/IMG_20151221_160724.jpg</img>
         </part>
 		<part>
             <name>Stepper spacer</name>
             <id>PL-16</id>
-            <q>4</q>
+            <q>6</q>
             <img>pics/housing/IMG_20151221_160805.jpg</img>
         </part>
 		<part>
@@ -826,7 +826,7 @@
             <img>pics/bom/IMG_20151214_142942.jpg</img>
         </part>
         <part>
-            <name>GT2 timing belt 6mm (2x775mm, 2x789mm)</name>
+            <name>GT2 timing belt 6mm (2x790mm, 2x800mm)</name>
             <id>O-30</id>
             <q>3,5m</q>
 			<text>Available: http://www.robotdigg.com/product/10/Open+Ended+6mm+Width+GT2+Belt</text>
