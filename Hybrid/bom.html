@@ -1,116 +1,749 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="style-bom.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="../stylesheets/main.css" rel="stylesheet">
+   <link href="../stylesheets/font-awesome.min.css" rel="stylesheet">
 </head>
-
 <body>
+<div class="container">
+<table class="table-bom table-responsive col-xs-12 col-lg-8 col-centered">
+  <tr>
+    <th class="img-bom">Image</th>
+    <th>Part</th>
+    <th>Description</th>
+    <th class="number">Quantity needed for assembly</th>
+    <th class="number">Quantity packed in a kit</th>
+    <th>ID</th> 
+  </tr>
+  <tr>
+    <th colspan="6">Steal Beams and Plates (SBP)</th>
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/Beam-40x40.jpg" alt=""></td>
+    <td>Beam X</td>
+    <td>SHS 40x40x3x1100</td>
+    <td>2</td>
+    <td>2</td>
+    <td>SBP-1</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/Beam-40x40.jpg" alt=""></td>
+    <td>Beam X - Main</td>
+    <td>SHS 40x40x3x1100</td>
+    <td>1</td>
+    <td>1</td>
+    <td>SBP-2</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/Beam-40x40.jpg" alt=""></td>
+    <td>Beam Y</td>
+    <td>SHS 40x40x3x1100</td>
+    <td>2</td>
+    <td>2</td>
+    <td>SBP-3</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/l-profile.jpg" alt=""></td>
+    <td>L Profile - Chain Support</td>
+    <td>Aluminum L Profile 40x40x3x1100</td>
+    <td>1</td>
+    <td>1</td>
+    <td>SBP-4</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/short-beam.jpg" alt=""></td>
+    <td>Beam Short X</td>
+    <td>SHS 100x100x3x130</td>
+    <td>1</td>
+    <td>1</td>
+    <td>SBP-5</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/short-beam.jpg" alt=""></td>
+    <td>Beam Short Y1</td>
+    <td>SHS 100x100x3x130</td>
+    <td>1</td>
+    <td>1</td>
+    <td>SBP-6</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/short-beam.jpg" alt=""></td>
+    <td>Beam Short Y2</td>
+    <td>SHS 100x100x3x13</td>
+    <td>1</td>
+    <td>1</td>
+    <td>SBP-7</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/x-profile.jpg" alt=""></td>
+    <td>Aluminum profile</td>
+    <td>Aluminum X Profile 30x30x300</td>
+    <td>2</td>
+    <td>2</td>
+    <td>SBP-8</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/bearing-plate.jpg" alt=""></td>
+    <td>Bearing plate</td>
+    <td>3mm Plate</td>
+    <td>1</td>
+    <td>1</td>
+    <td>SBP-9</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/motor-plate.jpg" alt=""></td>
+    <td>Motor plate</td>
+    <td>3mm Plate</td>
+    <td>1</td>
+    <td>1</td>
+    <td>SBP-10</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/bottom-plate.jpg" alt=""></td>
+    <td>Bottom plate</td>
+    <td>3mm Plate</td>
+    <td>1</td>
+    <td>1</td>
+    <td>SBP-11</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/bracket-for-tighteners.jpg" alt=""></td>
+    <td>Bracket for tighteners – Plate</td>
+    <td>3mm Plate</td>
+    <td>6</td>
+    <td>6</td>
+    <td>SBP-12</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/u-profile-chain support.jpg" alt=""></td>
+    <td>U Profile - Chain Support</td>
+    <td>Aluminum U profile 100x50x3x35</td>
+    <td>1</td>
+    <td>1</td>
+    <td>SBP-13</td> 
+  </tr>
+ <tr>
+  <th colspan="6">BOLTS,NUTS,WASHERS (BNW)</th>
+ </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-933-M8-140.jpg" alt=""></td>
+    <td>DIN 933 M8x140</td>
+    <td>M8 Hex Bolt</td>
+    <td>2</td>
+    <td>5</td>
+    <td>BNW-1</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-933-M8x110.jpg" alt=""></td>
+    <td>DIN 933 M8x110</td>
+    <td>M8 Hex Bolt</td>
+    <td>20</td>
+    <td>25</td>
+    <td>BNW-2</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-933-M8x55.jpg" alt=""></td>
+    <td>DIN 933 M8x55</td>
+    <td>M8 Hex Bolt</td>
+    <td>6</td>
+    <td>10</td>
+    <td>BNW-3</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-933-M8x50.jpg" alt=""></td>
+    <td>DIN 933 M8x50</td>
+    <td>M8 Hex Bolt</td>
+    <td>8</td>
+    <td>10</td>
+    <td>BNW-4</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-933-M8x25.jpg" alt=""></td>
+    <td>DIN 933 M8x25</td>
+    <td>M8 Hex Bolt</td>
+    <td>6</td>
+    <td>10</td>
+    <td>BNW-5</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-933-M6x25.jpg" alt=""></td>
+    <td>DIN 933 M6x25</td>
+    <td>M6 Hex Bolt</td>
+    <td>18</td>
+    <td>20</td>
+    <td>BNW-6</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-7985-M6x50.jpg" alt=""></td>
+    <td>DIN 7985 M6x50</td>
+    <td>M6 Cross Bolt</td>
+    <td>4</td>
+    <td>5</td>
+    <td>BNW-7</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-7985-M6x25.jpg" alt=""></td>
+    <td>DIN 7985 M6x25</td>
+    <td>M6 Cross Bolt</td>
+    <td>11</td>
+    <td>15</td>
+    <td>BNW-8</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-7985-M5x25.jpg" alt=""></td>
+    <td>DIN 7985 M5x25</td>
+    <td>M5 Cross Bolt</td>
+    <td>12</td>
+    <td>15</td>
+    <td>BNW-9</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-912-M4x16.jpg" alt=""></td>
+    <td>DIN 912 M4x16</td>
+    <td>M4 Hex Socket Bolt</td>
+    <td>5</td>
+    <td>10</t>d>
+    <td>BNW-10</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/ISO-14583-M3x12.jpg" alt=""></td>
+    <td>ISO 14583 M3x12</td>
+    <td>M3 Torx Bolt</td>
+    <td>36</td>
+    <td>40</td>
+    <td>BNW-11</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-7996-4.5x50.jpg" alt=""></td>
+    <td>DIN 7996 4.5x50</td>
+    <td>Wood Cross Screw</td>
+    <td>4</td>
+    <td>5</td>
+    <td>BNW-12</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-934-M8-8.8.jpg" alt=""></td>
+    <td>DIN 934 M8 8.8</td>
+    <td>M8 Hex Nut</td>
+    <td>101</td>
+    <td>110</td>
+    <td>BNW-13</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-934-M6-8.8.jpg" alt=""></td>
+    <td>DIN 934 M6 8.8</td>
+    <td>M6 Hex Nut</td>
+    <td>48</td>
+    <td>50</td>
+    <td>BNW-14</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-934-M5-8.8.jpg" alt=""></td>
+    <td>DIN 934 M5 8.8</td>
+    <td>M5 Hex Nut</td>
+    <td>36</td>
+    <td>40</td>
+    <td>BNW-15</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-934-M4-8.8.jpg" alt=""></td>
+    <td>DIN 934 M4 8.8</td>
+    <td>M4 Hex Nut</td>
+    <td>5</td>
+    <td>10</td>
+    <td>BNW-16</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-934-M3 8.8.jpg" alt=""></td>
+    <td>DIN 934 M3 8.8</td>
+    <td>M3 Hex Nut</td>
+    <td>16</td>
+    <td>20</td>
+    <td>BNW-17</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-562-M8.jpg" alt=""></td>
+    <td>DIN 562 M8</td>
+    <td>M8 Square Nut</td>
+    <td>8</td>
+    <td>10</td>
+    <td>BNW-18</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-125-8.4.jpg" alt=""></td>
+    <td>DIN 125 8.4</td>
+    <td>M8 Washer</td>
+    <td>70</td>
+    <td>80</td>
+    <td>BNW-19</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-125-5.3.jpg" alt=""></td>
+    <td>DIN 125 5.3</td>
+    <td>M5 Washer</td>
+    <td>21</td>
+    <td>25</td>
+    <td>BNW-20</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-127-8.5.jpg" alt=""></td>
+    <td>DIN 127 8.5</td>
+    <td>M8 Spring Washer</td>
+    <td>46</td>
+    <td>50</td>
+    <td>BNW-21</td> 
+  </tr>
+ <tr>
 
-<table id="myTable">
+<th colspan="6">OTHER (OTH)</th>
+ </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/DIN-933-M8-140.jpg" alt=""></td>
+    <td>Bearing 608ZZ</td>
+    <td>Ball Bearing outer diam. 22</td>
+    <td>26</td>
+    <td>30</td>
+    <td>OTH-1</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/Bearing-608ZZ.jpg" alt=""></td>
+    <td>Bearing F608Z</td>
+    <td>Belt Ball Bearing outer diam. 22</td>
+    <td>12</td>
+    <td>15</td>
+    <td>OTH-2</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/Flanged-Timing-Pulley.jpg" alt=""></td>
+    <td>Flanged Timing Pulley</td>
+    <td>16 teeth HTD3M/16 or DIN 7721 T5/16</td>
+    <td>3</td>
+    <td>3</td>
+    <td>OTH-3</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/Coupler-5-to-8mm.jpg" alt=""></td>
+    <td>Coupler 5 to 8 mm</td>
+    <td>Flexible shaft coupler</td>
+    <td>1</td>
+    <td>1</td>
+    <td>OTH-4</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/Turnbuckle.jpg" alt=""></td>
+    <td>Turnbuckle M6</td>
+    <td>M6 2x Eye70 mm</td>
+    <td>2</td>
+    <td>2</td>
+    <td>OTH-5</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/Screw-Anchor-fi10.jpg" alt=""></td>
+    <td>Screw Anchor fi10</td>
+    <td>Plasterboard Anchor</td>
+    <td>4</td>
+    <td>5</td>
+    <td>OTH-6</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/Nema-17-Stepper-motor.jpg" alt=""></td>
+    <td>NEMA 17 Stepper Motor</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>OTH-7</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/Nema-23-Stepper-motor.jpg" alt=""></td>
+    <td>NEMA 23 Stepper motor</td>
+    <td></td>
+    <td>3</td>
+    <td>3</td>
+    <td>OTH-8</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/Rod-fi12.jpg" alt=""></td>
+    <td>Linear guide fi12x270</td>
+    <td>Round Rod</td>
+    <td>2</td>
+    <td>2</td>
+    <td>OTH-9</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/M8-rod.jpg" alt=""></td>
+    <td>Rod M8x200</td>
+    <td>M8 Rod</td>
+    <td>1</td>
+    <td>1</td>
+    <td>OTH-10</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/Timing-belt.jpg" alt=""></td>
+    <td>Timing Belt</td>
+    <td>HTD3M or T5, width 10, length 1400</td>
+    <td>3</td>
+    <td>3</td>
+    <td>OTH-11</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/cable-chain.jpg" alt=""></td>
+    <td>Cable Chain</td>
+    <td>Length 1000, inner size 25x15, radius 50</td>
+    <td>1</td>
+    <td>1</td>
+    <td>OTH-12</td> 
+  </tr>
+<tr>
+<th colspan="6">3D PRINTED PARTS (PRINT)</th>
+ </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/tigtener-outer.jpg" alt=""></td>
+    <td>Tightener – Outer</td>
+    <td>Tightener – Outer.STL</td>
+    <td>6</td>
+    <td>6</td>
+    <td>PRINT-1</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/tigtener-inner.jpg" alt=""></td>
+    <td>Tightener – Inner</td>
+    <td>Tightene – Inner STL</td>
+    <td>3</td>
+    <td>3</td>
+    <td>PRINT-2</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/tightener-spacer.jpg" alt=""></td>
+    <td>Tightener - Spacer</td>
+    <td>Tightener – Spacer.STL</td>
+    <td>2</td>
+    <td>2</td>
+    <td>PRINT-3</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/linear-guide-mount.jpg" alt=""></td>
+    <td>Linear guide mount</td>
+    <td>Linear guide mount.STL</td>
+    <td>4</td>
+    <td>4</td>
+    <td>PRINT-4</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/nut-casing-buttom.jpg" alt=""></td>
+    <td>Nut casing – Upper</td>
+    <td>Nut casing – Upper.STL</td>
+    <td>1</td>
+    <td>1</td>
+    <td>PRINT-5</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/nut-casing-upper.jpg" alt=""></td>
+    <td>Nut casing – Bottom</td>
+    <td>Nut casing – Bottom.STL</td>
+    <td>1</td>
+    <td>1</td>
+    <td>PRINT-6</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/Electronics-box.jpg" alt=""></td>
+    <td>Electronics box</td>
+    <td>Electronics box STL</td>
+    <td>4</td>
+    <td>4</td>
+    <td>PRINT-7</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/Electronics-box.jpg" alt=""></td>
+    <td>Electronics box cover</td>
+    <td>Electronics box cover STL</td>
+    <td>4</td>
+    <td>4</td>
+    <td>PRINT-8</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/electronics-mount.jpg" alt=""></td>
+    <td>Electronics mount</td>
+    <td>Electronics mount STL</td>
+    <td>3</td>
+    <td>3</td>
+    <td>PRINT-9</td> 
+  </tr>
+<tr>
+<th colspan="6">ELECTRONICS (EL)</th>
+ </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/toslink.jpg" alt=""></td>
+    <td>ToslinkCNC 4-axis kit</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>EL-1</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/MotorDriver.jpg" alt=""></td>
+    <td>Motor drivers 4x</td>
+    <td></td>
+    <td>4</td>
+    <td>4</td>
+    <td>EL-2</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/arduino.jpg" alt=""></td>
+    <td>Arduino</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>EL-3</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/cable-DC.jpg" alt=""></td>
+    <td>Cable DC 2x0.75mm^2 - 15cm</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>EL-4</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/cable-DC.jpg" alt=""></td>
+    <td>Cable DC 2x0.75mm^2 - 30cm </td>
+    <td></td>
+    <td>2</td>
+    <td>2</td>
+    <td>EL-5</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/cable-DC.jpg" alt=""></td>
+    <td>Cable DC 2x0.75mm^2 - Beam Y length + 40cm (150cm default) </td>
+    <td></td>
+    <td>2</td>
+    <td>2</td>
+    <td>EL-6</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/cable-DC.jpg" alt=""></td>
+    <td>Cable DC 2x0.75mm^2 - Beam X length + 90cm (200cm default)</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>EL-7</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/cable-DC.jpg" alt=""></td>
+    <td>Cable DC 2x2.5mm^2 300cm</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>EL-8</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/cable-clamp-dual-16.jpg" alt=""></td>
+    <td>Cable clamp 16mm^2 dual </td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>EL-9</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/cable-clamp-dual-10.jpg" alt=""></td>
+    <td>Cable clamp 10mm^2 dual </td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>EL-10</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/power-supply.jpg" alt=""></td>
+    <td>150W 24V DC power supply</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>EL-11</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/cable-with-plug.jpg" alt=""></td>
+    <td>Power supply cable with plug (country dependent)</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>EL-12</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/toslink-optical-cable 0.5m.jpg" alt=""></td>
+    <td>Toslink optical cable 0.5m</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>EL-13</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/toslink-optical-cable-1.5m.jpg" alt=""></td>
+    <td>Toslink optical cable 1.5m </td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>EL-14</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/toslink-optical-cable-2.5m.jpg" alt=""></td>
+    <td>Toslink optical cable 2.5m </td>
+    <td></td>
+    <td>2</td>
+    <td>2</td>
+    <td>EL-15</td> 
+  </tr>
+<tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/toslink-optical-cable-5m.jpg" alt=""></td>
+    <td>Tolsink optical cable 5m </td>
+    <td></td>
+    <td>1</td>
+    <td></td>
+    <td>EL-16</td> 
+  </tr>
+<th colspan="6">ADD ON (AO)</th>
+ </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/long-beams.jpg" alt=""></td>
+    <td>Long beams for GoodEnoughCNC hybrid frame</td>
+    <td>4 x SHS 40x40x3x1100 beams + Aluminum L Profile 40x40x3x1100</td>
+    <td>5</td>
+    <td>5</td>
+    <td>AO-1</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/planetcnc.png" alt=""></td>
+    <td>Planet CNC</td>
+    <td>USB controller Mk3/4 (4 axis) +Software</td>
+    <td>1</td>
+    <td>1</td>
+    <td>AO-2</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/plasma-cutter-table.jpg" alt=""></td>
+    <td>Plasma cutter table</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>AO-3</td> 
+  </tr>
+<tr>
+<th colspan="6">ADD ONS: MILL (AOM)</th>
+ </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/cnc-spindle.jpg" alt=""></td>
+    <td>Toolhead: Milling: 0.8 KW Spindle</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>AOM-1</td> 
+  </tr>
+<tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/spindle-bracket.jpg" alt=""></td>
+    <td>3D printed bracket for spindle</td>
+    <td>Mill Mount 65mm - Z Axis - 2 piece(s).STL</td>
+    <td>2</td>
+    <td>2</td>
+    <td>AOM-2</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOMDIN-933-M8-140.jpg" alt=""></td>
+    <td>0.8kW VFD Frequency inverter</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>AOM-3</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/cable.jpg" alt=""></td>
+    <td>5m 4x1.5mm^2 230V cable + connector</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>AOM-4</td> 
+  </tr>
       <tr>
-            <th>Image</th>
-            <th>Module</th>
-            <th>Part</th>
-            <th>Description</th>
-            <th>Quantity</th>
-            <th>ID</th>
-    </tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/no-image.jpg" alt=""></td>
+    <td>Power cable for VFD</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>AOM-5</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/no-image.jpg" alt=""></td>
+    <td>Water cooling pump </td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>AOM-6</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/no-image.jpg" alt=""></td>
+    <td>10m 5x8 tube</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>AOM-7</td> 
+  </tr>
+<tr>
+<th colspan="6">ADD ONS: PLASMA CUTTER (AOP)</th>
+ </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/plasma.jpg" alt=""></td>
+    <td>Toolhead: Plasma cutting 41</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>AOP-1</td> 
+  </tr> 
+   <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/torch-mount.jpg" alt=""></td>
+    <td>3D printed bracket for Toolhead: Plasma cutting 41</td>
+    <td>Torch mount.STL</td>
+    <td>1</td>
+    <td>1</td>
+    <td>AOP-2</td> 
+  </tr>
+  <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/no-image.jpg" alt=""></td>
+    <td>Torch Safety Cap 802485</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>AOP-3</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/no-image.jpg" alt=""></td>
+    <td>Electrode Diffuser Torch 802422</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>AOP-4</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/no-image.jpg" alt=""></td>
+    <td>Electrode 802420</td>
+    <td></td>
+    <td>2</td>
+    <td>2</td>
+    <td>AOP-5</td> 
+  </tr>
+    <tr>
+    <td><img src="http://instructions.goodenoughcnc.eu/Hybrid/pics/BOM/no-image.jpg" alt=""></td>
+    <td>Nozzle 0.6mm 802423</td>
+    <td></td>
+    <td>5</td>
+    <td>5</td>
+    <td>AOP-6</td> 
+  </tr>
 </table>
-
-
-
-
-
-
-
-<script>
-//document.location.hash="test";
-
-var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
-    if (xhttp.readyState == 4 && xhttp.status == 200) {
-    myFunction(xhttp);
-    }
-};
-xhttp.open("GET", "bom.xml", true);
-xhttp.send();
-
-function myFunction(xml) {
-
-    var xmlDoc = xml.responseXML;
-    var modlen, i, modname;
-    var table = document.getElementById("myTable");
-    
-    //Number of modules
-    x = xmlDoc.getElementsByTagName("module");
-    modlen = x.length;
-    
-    
-    //Loop over modules
-    for(i=0; i<modlen; i++){
-    
-        //Get name of the module
-        modname = xmlDoc.getElementsByTagName("module")[i].getElementsByTagName("module-name")[0].childNodes[0].nodeValue;
-        //Get number of parts
-        var partlen, j;
-
-        partlen = xmlDoc.getElementsByTagName("module")[i].getElementsByTagName("part").length;
-        var row = table.insertRow(-1);
-        var cell0 = row.insertCell(0);
-        //var cell1 = row.insertCell(1);
-        //var cell2 = row.insertCell(2);
-        //var cell3 = row.insertCell(3);
-        //var cell4 = row.insertCell(4);
-        //var cell5 = row.insertCell(5);
-        
-        row.className = "line";
-        cell0.className = "line";
-        cell0.colSpan = "6";
-        cell0.innerHTML = modname;
-        
-        //Loop over steps
-        for(j = 0; j < partlen; j++){
-        
-            
-            var row = table.insertRow(-1);
-            var cell0 = row.insertCell(0);
-            var cell1 = row.insertCell(1);
-            var cell2 = row.insertCell(2);
-            var cell3 = row.insertCell(3);
-            var cell4 = row.insertCell(4);
-            var cell5 = row.insertCell(5);
-            
-            
-            var img = document.createElement('img');
-            img.src = xmlDoc.getElementsByTagName("module")[i].getElementsByTagName("part")[j].getElementsByTagName("img")[0].childNodes[0].nodeValue;
-            cell0.appendChild(img);
-            cell0.className = "cell_img";
-            img.tabIndex = 1;
-            
-            cell1.innerHTML = modname;
-            cell1.className = "module";
-            cell2.innerHTML = xmlDoc.getElementsByTagName("module")[i].getElementsByTagName("part")[j].getElementsByTagName("name")[0].childNodes[0].nodeValue;
-            cell2.className = "name";
-            if (xmlDoc.getElementsByTagName("module")[i].getElementsByTagName("part")[j].getElementsByTagName("text")[0]){
-                cell3.innerHTML = xmlDoc.getElementsByTagName("module")[i].getElementsByTagName("part")[j].getElementsByTagName("text")[0].childNodes[0].nodeValue;
-                cell3.className = "text";
-            }
-            cell4.innerHTML = xmlDoc.getElementsByTagName("module")[i].getElementsByTagName("part")[j].getElementsByTagName("q")[0].childNodes[0].nodeValue;
-            cell4.className = "qn";
-            cell5.innerHTML = xmlDoc.getElementsByTagName("module")[i].getElementsByTagName("part")[j].getElementsByTagName("id")[0].childNodes[0].nodeValue;
-            cell5.className = "id";
-
-        };
-    
-    
-    
-    }
-
-
-
-};
-
-</script>
-
+</div>
 </body>
-</html>
+
+
+
+
+

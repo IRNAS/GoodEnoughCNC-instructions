@@ -249,3 +249,38 @@ h3{
 .container .col-sm-6{
 	margin-bottom:80px;
 }
+
+.table-bom{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.table-bom, .table-bom th, .table-bom td{
+  background-color: #fff;
+  border:1px solid #F5F5F5;
+  padding:8px;
+}
+
+.table-bom th{
+ color:#F19B1F;
+ font-weight:bold;
+ border-bottom: 2px solid #F5F5F5;
+}
+
+.table-bom img{
+max-width:150px;
+}
+
+.number{
+ max-width:100px;
+}
+
+.img-bom{
+  width:116px;
+}
+
+.table-bom img{
+  width:100%;
+  max-width:100px;
+}
+
