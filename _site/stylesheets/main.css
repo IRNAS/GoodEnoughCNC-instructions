@@ -284,3 +284,11 @@ max-width:150px;
   max-width:100px;
 }
 
+.logo-img{
+  max-width:200px;
+}
+
+.col-centered, .row-centered{
+  float:none;
+  margin:0 auto;
+}
