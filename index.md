@@ -40,8 +40,8 @@ title: "GoodEnoughCNC Documentation"
 <div class="container">
 <div class="col-sm-6">
 <h3>Order kit</h3>
-<p>Step by step assembly instructions for GoodEnoughCNC machines is best to be used with assembly kits available at <a href="http://fabrikor.eu/goodenoughcnc" target="_blank">Fabrikor</a>.</p>
-<a href="http://fabrikor.eu/goodenoughcnc" class="button btn btn-default btn-success" target="_blank">Order Kit</a>
+<p>Step by step assembly instructions for GoodEnoughCNC machines is best to be used with assembly kits available at <a href="http://fabrikor.eu/" target="_blank">Fabrikor</a>.</p>
+<a href="http://fabrikor.eu/" class="button btn btn-default btn-success" target="_blank">Order Kit</a>
 </div>
 <div class="col-sm-6">
 <h3>Support</h3>
