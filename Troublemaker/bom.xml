@@ -117,7 +117,7 @@
             <img>pics/tools/IMG_20160531_111529.jpg</img>
         </part>
 		<part>
-            <name>Tap 1/8"</name>
+            <name>Tap 3/8"</name>
             <id>T-20</id>
             <q> </q>
             <img>pics/tools/IMG_20160531_111514.jpg</img>
@@ -383,13 +383,13 @@
 		<part>
             <name>Stepper spacer cables</name>
             <id>PL-15</id>
-            <q>3</q>
+            <q>2</q>
             <img>pics/housing/IMG_20151221_160724.jpg</img>
         </part>
 		<part>
             <name>Stepper spacer</name>
             <id>PL-16</id>
-            <q>6</q>
+            <q>4</q>
             <img>pics/housing/IMG_20151221_160805.jpg</img>
         </part>
 		<part>
@@ -826,7 +826,7 @@
             <img>pics/bom/IMG_20151214_142942.jpg</img>
         </part>
         <part>
-            <name>GT2 timing belt 6mm (2x790mm, 2x800mm)</name>
+            <name>GT2 timing belt 6mm (2x790mm, 2x803mm)</name>
             <id>O-30</id>
             <q>3,5m</q>
 			<text>Available: http://www.robotdigg.com/product/10/Open+Ended+6mm+Width+GT2+Belt</text>
@@ -856,7 +856,7 @@
 		<part>
             <name>Spring fi5.6x12mm</name>
             <id>O-34</id>
-            <q>4</q>
+            <q>6</q>
 			<text>Available: http://www.robotdigg.com/product/580/Compression+spring+for+extruder+n+more</text>
             <img>pics/bom/IMG_20160330_134244.jpg</img>
         </part>
@@ -921,7 +921,7 @@
             <img>pics/bom/IMG_20151214_143727.jpg</img>
         </part>
         <part>
-            <name>LiY(St)Y cable 2x0.5mm&#178;+8x0.22mm&#178;</name>
+            <name>LAPP ÖLFLEX cable 2x0.5mm&#178;+8x0.25mm&#178;</name>
             <id>O-44</id>
             <q>1.8m</q>
             <img>pics/bom/IMG_20160330_134213.jpg</img>
@@ -953,7 +953,7 @@
 		<part>
             <name>Ferrule terminal</name>
             <id>O-49</id>
-            <q>35</q>
+            <q>37</q>
             <img>pics/bom/IMG_20160601_121810.jpg</img>
         </part>
         <part>

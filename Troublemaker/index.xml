@@ -52,7 +52,7 @@
 				<video>video/dummy.mp4</video>
 			</step>
 			<step>
-				<text>Cut the timing belt. You will need four pieces, two 790mm long and two 800mm long pieces.</text>
+				<text>Cut the timing belt. You will need four pieces, two 790mm long and two 803mm long pieces.</text>
 				<images>
 					<image>pics/bom/IMG_20151214_151412.jpg</image>
 				</images>
@@ -169,7 +169,7 @@
 				<video>video/dummy.mp4</video>
 			</step>
 			<step>
-				<text>Cut the 1/8" thread in the hole for the pneumatic coupler.</text>
+				<text>Cut the 3/8" thread in the hole for the pneumatic coupler.</text>
 				<images>
 					<image>pics/extruder/IMG_20151221_145933.jpg</image>
 					<image>pics/extruder/IMG_20151221_150034.jpg</image>
@@ -369,7 +369,7 @@
 				</parts>
 			</step>
 			<step>
-				<text>Put a spring and two M4 washers on each HEX bolt and connect print bed top and print bed bottom parts. Put one M4 washer and one M4 spring lock washer on each HEX bolt and secure all parts together with M4 wing nuts.</text>
+				<text>Cut two springs in half using cutter pliers. Put a spring and a half and two M4 washers on each HEX bolt and connect print bed top and print bed bottom parts. Put one M4 washer and one M4 spring lock washer on each HEX bolt and secure all parts together with M4 wing nuts.</text>
 				<images>
 					<image>pics/print bed/IMG_20160223_112628.jpg</image>
 					<image>pics/print bed/IMG_20160223_112711.jpg</image>
@@ -379,7 +379,7 @@
 				</images>
 				<video>video/dummy.mp4</video>
 				<parts>
-					<part>3x spring</part>
+					<part>5x spring</part>
 					<part>9x M4 washer</part>
 					<part>3x M4 spring lock washer</part>
 					<part>3x M4 wing nut</part>
@@ -579,17 +579,17 @@
 				<video>video/dummy.mp4</video>
 			</step>
 			<step>
-				<text><![CDATA[Take the LiY(St)Y cable and strip the ends of the wires. Direct the cable through the hole in the print head part, as seen in the picture. Solder the wires together: <br />
-				red wire (0.5mm&#178;) = heater <br />
-				black wire (0.5mm&#178;) = heater <br />
-				red wire (0.22mm&#178;) = fan + <br />
-				grey wire (0.22mm&#178;) = fan - <br />
-				green wire (0.22mm&#178;) = thermistor <br />
-				yellow wire (0.22mm&#178;) = thermistor <br />
-				brown wire (0.22mm&#178;) = / <br />
-				blue wire (0.22mm&#178;) = / <br />
-				orange wire (0.22mm&#178;) = / <br />
-				white wire (0.22mm&#178;) = /]]>
+				<text><![CDATA[Take the LAPP ÖLFLEX cable and strip the ends of the wires. Direct the cable through the hole in the print head part, as seen in the picture. Solder the wires together: <br />
+				white wire (0.5mm&#178;) = heater <br />
+				brown wire (0.5mm&#178;) = heater <br />
+				red wire (0.25mm&#178;) = fan for print head (30mm) + <br />
+				black wire (0.25mm&#178;) = fan for print head (30mm) - <br />
+				pink wire (0.25mm&#178;) = thermistor <br />
+				grey wire (0.25mm&#178;) = thermistor <br />
+				violet wire (0.25mm&#178;) = fan for plastics (40mm) + <br />
+				blue wire (0.25mm&#178;) = fan for plastics (40mm) - <br />
+				green wire (0.25mm&#178;) = / <br />
+				brown wire (0.25mm&#178;) = /]]>
 				</text>
 				<images>
 					<image>pics/print head/IMG_20160223_141647.jpg</image>
@@ -598,7 +598,7 @@
 				</images>
 				<video>video/dummy.mp4</video>
 				<parts>
-					<part>1.8m LiY(St)Y cable 2x0.5mm&#178; + 8x0.22mm&#178;</part>
+					<part>1.8m LAPP ÖLFLEX cable 2x0.5mm&#178; + 8x0.25mm&#178;</part>
 				</parts>
 			</step>
 			<step>
@@ -885,7 +885,7 @@
 				</parts>
 			</step>
 			<step>
-				<text>Take the assembled carriages and place one carriage and two timing belt pulleys with a 8mm bore on each smooth rod. Place one more belt pulleys with a 8mm bore and timing belt with 100 teeth on the right and back smooth rod for stepper motors. Direct those two timing belts on the belt pulleys with a 5mm bore that are attached to the steppers.</text>
+				<text>Take the assembled carriages and place one carriage and two timing belt pulleys with a 8mm bore on each smooth rod. The carriages with shorter belts should be placed on x axis rods and the carriages with longer belts on y axis rods. Place one more belt pulleys with a 8mm bore and timing belt with 100 teeth on the right and back smooth rod for stepper motors. Direct those two timing belts on the belt pulleys with a 5mm bore that are attached to the steppers.</text>
 				<images>
 					<image>pics/housing/IMG_20151228_125346.jpg</image>
 					<image>pics/housing/IMG_20151228_125434.jpg</image>
@@ -1001,7 +1001,7 @@
 				</parts>
 			</step>
 			<step>
-				<text>Attach the print head on the housing with the shortest two smooth rods fi8. Secure them in place with the carriage rod cover parts and TORX screws. Connect the bowden to the print head</text>
+				<text>Attach the print head on the housing with the shortest two smooth rods fi8. The shorter rod should be placed on x axis and the longer rod on y axis. Secure them in place with the carriage rod cover parts and TORX screws. Connect the bowden to the print head</text>
 				<images>
 					<image>pics/bom/IMG_20160224_210826.jpg</image>
 					<image>pics/housing/IMG_20160224_210859.jpg</image>
@@ -1039,7 +1039,7 @@
 		<name>Electronics</name>
 		<steps>
 			<step>
-				<text>Prepare the 24V power supply for the heated bed and attach the custom relay for heated bed. Make sure that the power supply is set to 240V!</text>
+				<text>Prepare the 24V power supply for the heated bed and attach the custom relay for heated bed. Make sure that the power supply is set to the correct voltage - 110V / 230V!</text>
 				<images>
 					<image>pics/bom/IMG_20151214_143610.jpg</image>
 					<image>pics/bom/IMG_20151214_143727.jpg</image>
@@ -1270,13 +1270,13 @@
 				<video>video/dummy.mp4</video>
 			</step>
 			<step>
-				<text>Prepare 1.5mm&#178; cable, 20cm in lenght. Crimp ferrule terminals on both sides of the cable using ferrule crimping tool as seen in the picture.</text>
+				<text>Prepare 1.5mm&#178; cable, 25cm in lenght. Crimp ferrule terminals on both sides of the cable using ferrule crimping tool as seen in the picture.</text>
 				<images>
 					<image>pics/electronics/IMG_20160225_105139.jpg</image>
 				</images>
 				<video>video/dummy.mp4</video>
 				<parts>
-					<part>20cm 1.5mm&#178; cable</part>
+					<part>25cm 1.5mm&#178; cable</part>
 					<part>2x ferrule terminal</part>
 				</parts>
 			</step>
@@ -1400,7 +1400,7 @@
 				</parts>
 			</step>
 			<step>
-				<text>Connect the "PS ON" pins on the RUMBA board to the DC conections on the DC AC solid state relay using the thermistor cable with dupont connector as seen in the picture.</text>
+				<text>Connect the "PS ON" pins on the RUMBA board to the DC conections on the DC AC solid state relay using the thermistor cable with dupont connector as seen in the picture. Be careful to correctly connect the cable on the RUMBA board - the red wire should be on the left and the black on the right, as seen in the picture.</text>
 				<images>
 					<image>pics/electronics/IMG_20160225_191829.jpg</image>
 					<image>pics/electronics/IMG_20160225_191903.jpg</image>
@@ -1409,19 +1409,19 @@
 				<video>video/dummy.mp4</video>
 			</step>
 			<step>
-				<text><![CDATA[Prepare thermistor cable with dupont connector and cut it to size, 5cm in lenght. Solder it to the other end of the LiY(St)Y cable for the print head, to the green and yellow wires (0.22mm&#178;). Cut the leftover cables of the thermistor cable with dupont connector to 40cm lenght and crimp ferrule terminals on one end of the wires using ferrule crimping tool. Solder the other end of the cables to the red and grey wires (0.22mm&#178;). Crimp ferrule terminals on the red and black wires (0.5mm&#178;) using ferrule crimping tool.<br />
+				<text><![CDATA[Prepare thermistor cable with dupont connector and cut it to size, 5cm in lenght. Solder it to the other end of the LAPP ÖLFLEX cable for the print head, to the pink and grey wires (0.25mm&#178;). Cut the leftover cables of the thermistor cable with dupont connector to 40cm lenght and crimp ferrule terminals on one end of the wires using ferrule crimping tool. Solder the other end of the cables to the red and black wires (0.25mm&#178;). Crimp ferrule terminals on the violet and blue wires (0.25mm&#178;) and the white and brown wires (0.5mm&#178;) using ferrule crimping tool.<br />
 				<br />
 				The wires should be soldered together as follows: <br />
-				red wire (0.5mm&#178;) = ferrule terminal <br />
-				black wire (0.5mm&#178;) = ferrule terminal <br />
-				red wire (0.22mm&#178;) = extended + ferrule terminal<br />
-				grey wire (0.22mm&#178;) = extended + ferrule terminal <br />
-				green wire (0.22mm&#178;) = thermistor cable with dupont connector <br />
-				yellow wire (0.22mm&#178;) = thermistor cable with dupont connector <br />
-				brown wire (0.22mm&#178;) = / <br />
-				blue wire (0.22mm&#178;) = / <br />
-				orange wire (0.22mm&#178;) = / <br />
-				white wire (0.22mm&#178;) = /]]>
+				white wire (0.5mm&#178;) = ferrule terminal <br />
+				brown wire (0.5mm&#178;) = ferrule terminal <br />
+				red wire (0.25mm&#178;) = extended + ferrule terminal<br />
+				black wire (0.25mm&#178;) = extended + ferrule terminal <br />
+				pink wire (0.25mm&#178;) = thermistor cable with dupont connector <br />
+				grey wire (0.25mm&#178;) = thermistor cable with dupont connector <br />
+				violet wire (0.25mm&#178;) = ferrule terminal <br />
+				blue wire (0.25mm&#178;) = ferrule terminal <br />
+				green wire (0.25mm&#178;) = / <br />
+				brown wire (0.25mm&#178;) = /]]>
 				</text>
 				<images>
 					<image>pics/electronics/IMG_20160225_195759.jpg</image>
@@ -1432,25 +1432,32 @@
 				<video>video/dummy.mp4</video>
 				<parts>
 					<part>1x thermistor cable with dupont connector</part>
-					<part>4x ferrule terminal</part>
+					<part>6x ferrule terminal</part>
 				</parts>
 			</step>
 			<step>
-				<text>Connect the print head heater (red and black 0.5mm&#178; wires) to the RUMBA board ("HE0").</text>
+				<text>Connect the print head heater (white and brown 0.5mm&#178; wires) to the RUMBA board ("HE0").</text>
 				<images>
 					<image>pics/electronics/IMG_20160225_200127.jpg</image>
 				</images>
 				<video>video/dummy.mp4</video>
 			</step>
 			<step>
-				<text>Connect the print head thermistor (green and yellow 0.22mm&#178; wires) to the RUMBA board ("T0").</text>
+				<text>Connect the fan for plastics (40mm) (violet and blue 0.25mm&#178; wires) to the RUMBA board ("FAN0").</text>
+				<images>
+					<image>pics/logo.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+			</step>
+			<step>
+				<text>Connect the print head thermistor (pink and grey 0.25mm&#178; wires) to the RUMBA board ("T0").</text>
 				<images>
 					<image>pics/electronics/IMG_20160225_200215.jpg</image>
 				</images>
 				<video>video/dummy.mp4</video>
 			</step>
 			<step>
-				<text>Connect the print head fan (red and gray 0.22mm&#178; wires) to the 24V power supply for RUMBA board.</text>
+				<text>Connect the print head fan (red and black 0.25mm&#178; wires) to the 24V power supply for RUMBA board.</text>
 				<images>
 					<image>pics/electronics/IMG_20160225_200302.jpg</image>
 					<image>pics/electronics/IMG_20160225_200316.jpg</image>
@@ -1625,6 +1632,7 @@
 			<step>
 				<text>Attach the plexi magnet parts to the housing with TORX screws.</text>
 				<images>
+					<image>pics/logo.jpg</image>
 				</images>
 				<video>video/dummy.mp4</video>
 				<parts>
@@ -1676,15 +1684,56 @@
 	<module> <!-- Calibration******** -->
 		<name>Calibration</name>
 		<steps>
-			
-			<!--
-					<part>2x belt aligner</part>
-			-->
-			
 			<step>
-				<text>THIS SECTION WILL BE AVAILABLE SOON.</text>
+				<text>Steppper tensioning - THIS SECTION WILL BE AVAILABLE SOON.</text>
 				<images>
-					<image>pics/calibration.jpg</image>
+					<image>pics/logo.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Belt tensioning - THIS SECTION WILL BE AVAILABLE SOON.</text>
+				<images>
+					<image>pics/logo.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Screw carriages - THIS SECTION WILL BE AVAILABLE SOON.</text>
+				<images>
+					<image>pics/logo.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Belt alignment - THIS SECTION WILL BE AVAILABLE SOON.</text>
+				<images>
+					<image>pics/logo.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x belt aligner</part>
+				</parts>
+			</step>
+			<step>
+				<text>Screw carriage rods - THIS SECTION WILL BE AVAILABLE SOON.</text>
+				<images>
+					<image>pics/logo.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+				</parts>
+			</step>
+			<step>
+				<text>Limit switches - THIS SECTION WILL BE AVAILABLE SOON.</text>
+				<images>
+					<image>pics/logo.jpg</image>
 				</images>
 				<video>video/dummy.mp4</video>
 				<parts>
