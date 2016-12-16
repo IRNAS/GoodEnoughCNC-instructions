@@ -276,20 +276,26 @@
             <img>pics/housing/IMG_20160224_183658.jpg</img>
         </part>
 		<part>
-            <name>Plexi handle</name>
+            <name>Print bed stopper</name>
             <id>PR-19</id>
+            <q>1</q>
+            <img>pics/housing/IMG_20161208_085925.jpg</img>
+        </part>
+		<part>
+            <name>Plexi handle</name>
+            <id>PR-20</id>
             <q>4</q>
             <img>pics/housing/IMG_20160225_133846.jpg</img>
         </part>
 		<part>
             <name>Plexi magnet</name>
-            <id>PR-20</id>
+            <id>PR-21</id>
             <q>16</q>
             <img>pics/housing/IMG_20160225_133537.jpg</img>
         </part>
 		<part>
             <name>Stepper tensioner</name>
-            <id>PR-21</id>
+            <id>PR-22</id>
             <q>2</q>
             <img>pics/housing/IMG_20151221_161118.jpg</img>
         </part>
@@ -404,12 +410,6 @@
             <q>2</q>
             <img>pics/housing/IMG_20151228_095057.jpg</img>
         </part>
-		<part>
-            <name>Print bed stopper</name>
-            <id>PL-19</id>
-            <q>1</q>
-            <img> </img>
-        </part>
     </module>
 	<module> <!-- Cut from acrylic glass -->
         <module-name>Cut from acrylic glass</module-name>
@@ -473,19 +473,19 @@
 		<part>
             <name>TORX screw ISO7383 BN6404 M3x10</name>
             <id>F-2</id>
-            <q>29</q>
+            <q>28</q>
             <img>pics/bom/IMG_20160330_131916.jpg</img>
         </part>
         <part>
             <name>TORX screw ISO7383 BN6404 M3x12</name>
             <id>F-3</id>
-            <q>36</q>
+            <q>35</q>
             <img>pics/bom/IMG_20160330_132010.jpg</img>
         </part>
         <part>
             <name>TORX screw ISO7383 BN6404 M3x16</name>
             <id>F-4</id>
-            <q>96</q>
+            <q>98</q>
             <img>pics/bom/IMG_20160330_132109.jpg</img>
         </part>
         <part>
@@ -953,7 +953,7 @@
 		<part>
             <name>Ferrule terminal</name>
             <id>O-49</id>
-            <q>37</q>
+            <q>35</q>
             <img>pics/bom/IMG_20160601_121810.jpg</img>
         </part>
         <part>

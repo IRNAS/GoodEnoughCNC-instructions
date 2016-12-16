@@ -400,6 +400,17 @@
 				</parts>
 			</step>
 			<step>
+				<text>Crimp ferrule terminals on the 2x2.5mm&#178; cable using ferrule crimping tool as seen in the picture.</text>
+				<images>
+					<image>pics/print bed/IMG_20160601_124121.jpg</image>
+					<image>pics/print bed/IMG_20160601_124219.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x ferrule terminal</part>
+				</parts>
+			</step>
+			<step>
 				<text>Take binder clips and loosen them a bit.</text>
 				<images>
 					<image>pics/print bed/IMG_20160111_164035.jpg</image>
@@ -447,20 +458,27 @@
 				<images>
 					<image>pics/print head/IMG_20160223_124517.jpg</image>
 					<image>pics/print head/IMG_20160223_131300.jpg</image>
+					<image>pics/print head/IMG_20160601_121725.jpg</image>
+					<image>pics/print head/IMG_20160601_121735.jpg</image>
 					<image>pics/print head/IMG_20160223_131320.jpg</image>
 				</images>
 				<video>video/dummy.mp4</video>
 				<parts>
 					<part>1x print head</part>
 					<part>1x print head clamp</part>
+					<part>1x print head fan</part>
+					<part>1x print head cable holder</part>
 					<part>2x print head clips</part>
 				</parts>
 			</step>
 			<step>
-				<text>Cut the M3 thread in four holes at the back of the print head part and two holes on each side of the print head part as seen in the picture.</text>
+				<text>Cut the M3 thread in four holes at the back, two holes on each side, one hole on left side and three holes at the bottom of the print head part as seen in the picture. Cut the M3 thread in two holes on the chamfered side of the print head fan part as seen in the picture.</text>
 				<images>
 					<image>pics/print head/IMG_20160223_130218.jpg</image>
 					<image>pics/print head/IMG_20160223_124614.jpg</image>
+					<image>pics/print head/IMG_20161208_093041.jpg</image>
+					<image>pics/print head/IMG_20161208_092923.jpg</image>
+					<image>pics/print head/IMG_20161208_093628.jpg</image>
 				</images>
 				<video>video/dummy.mp4</video>
 			</step>
@@ -474,16 +492,29 @@
 				<video>video/dummy.mp4</video>
 			</step>
 			<step>
-				<text>Re-drill all smaller holes without the M3 thread on all parts with a 3mm drill. There are 10 holes on print head part, 4 holes on head clamp part and 2 holes on head clip parts.</text>
+				<text>Re-drill all smaller holes without the M3 thread on all parts with a 3mm drill. There are 10 holes on print head part, 4 holes on print head clamp part, 1 hole on print head fan part, 1 hole on print head cable holder part and 2 holes on print head clip parts.</text>
 				<images>
 					<image>pics/print head/IMG_20160223_124853.jpg</image>
 					<image>pics/print head/IMG_20160223_124925.jpg</image>
 					<image>pics/print head/IMG_20160223_124955.jpg</image>
 					<image>pics/print head/IMG_20160223_125033.jpg</image>
 					<image>pics/print head/IMG_20160223_131302.jpg</image>
+					<image>pics/print head/IMG_20161208_093417.jpg</image>
+					<image>pics/print head/IMG_20161208_093731.jpg</image>
 					<image>pics/print head/IMG_20160223_131321.jpg</image>
 				</images>
 				<video>video/dummy.mp4</video>
+			</step>
+			<step>
+				<text>Screw two phillips screws to the bottom of the print head part in two holes with M3 thread, as seen in the picture.</text>
+				<images>
+					<image>pics/print head/IMG_20161208_094027.jpg</image>
+					<image>pics/print head/IMG_20161208_094123.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x phillips screw M3x5</part>
+				</parts>
 			</step>
 			<step>
 				<text>Insert four M3 square nuts in the slots. You can help yourself with a slotted screwdriver if necessary.</text>
@@ -570,6 +601,40 @@
 				</parts>
 			</step>
 			<step>
+				<text>Take print head fan part and insert two magnets using tongue-and-groove pliers.</text>
+				<images>
+					<image>pics/print head/IMG_20161208_090919.jpg</image>
+					<image>pics/print head/IMG_20161208_091009.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x magnet fi6x2</part>
+				</parts>
+			</step>
+			<step>
+				<text>Using TORX screws attach the cooling fan to the print head fan part.</text>
+				<images>
+					<image>pics/print head/IMG_20161208_091534.jpg</image>
+					<image>pics/print head/IMG_20161208_091732.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x fan 40x40x10mm</part>
+					<part>2x TORX screw M3x16</part>
+				</parts>
+			</step>
+			<step>
+				<text>Attach the print head fan part to the print head using one TORX screw.</text>
+				<images>
+					<image>pics/print head/IMG_20161208_094154.jpg</image>
+					<image>pics/print head/IMG_20161208_112211.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x TORX screw M3x10</part>
+				</parts>
+			</step>
+			<step>
 				<text>Direct the wires through the hole in the print head part. Cut all the cables to the appropriate length and strip the ends of the wires.</text>
 				<images>
 					<image>pics/print head/IMG_20160223_141533.jpg</image>
@@ -611,6 +676,16 @@
 				<video>video/dummy.mp4</video>
 				<parts>
 					<part>2x cable tie</part>
+				</parts>
+			</step>
+			<step>
+				<text>Secure the cables in place using print head cable holder part.</text>
+				<images>
+					<image>pics/print head/IMG_20161208_112525.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>1x TORX screw M3x10</part>
 				</parts>
 			</step>
 		</steps>
@@ -998,6 +1073,28 @@
 				<parts>
 					<part>3x TORX screw M3x16</part>
 					<part>3x M3 washer</part>
+				</parts>
+			</step>
+			<step>
+				<text>Take the print bed stopper part. Insert the two square nuts in the slots, as seen in the picture. You can help yourself with a slotted screwdriver if necessary.</text>
+				<images>
+					<image>pics/housing/IMG_20161208_085925.jpg</image>
+					<image>pics/housing/IMG_20161208_090102.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x M3 square nut</part>
+				</parts>
+			</step>
+			<step>
+				<text>Attach the print bed stopper to the inner side of the housing back part using TORX screws, as seen in the picture.</text>
+				<images>
+					<image>pics/housing/IMG_20161214_091612.jpg</image>
+				</images>
+				<video>video/dummy.mp4</video>
+				<parts>
+					<part>2x TORX screw M3x16</part>
+					<part>2x M3 washer</part>
 				</parts>
 			</step>
 			<step>
