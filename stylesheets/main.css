@@ -292,3 +292,27 @@ max-width:150px;
   float:none;
   margin:0 auto;
 }
+
+.no-support .btn{
+  font-size: 22px;
+}
+
+.no-support{
+  margin-top:-1px;
+}
+
+.highlight{
+  text-transform: uppercase;
+}
+
+.bg-primary{
+  background-color:#333333;
+}
+
+
+.highlight{
+  padding:30px 0px;
+}
+
+.no-support .btn{
+ cursor: default;}

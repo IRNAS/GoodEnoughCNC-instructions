@@ -35,18 +35,13 @@ title: "GoodEnoughCNC Documentation"
   </div>
 </div>
 <div class="clear"></div>
-
-
-<div class="container">
-<div class="col-sm-6">
-<h3>Order kit</h3>
-<p>Step by step assembly instructions for GoodEnoughCNC machines is best to be used with assembly kits available at <a href="http://fabrikor.eu/" target="_blank">Fabrikor</a>.</p>
-<a href="http://fabrikor.eu/" class="button btn btn-default btn-success" target="_blank">Order Kit</a>
-</div>
-<div class="col-sm-6">
-<h3>Support</h3>
-<p>Should you need any help with GoodEnoughCNC systems, get in touch with others involved in the project and Institute IRNAS team via <a href="https://goodenoughcnc-hybrid-cnc.readme.io/discuss" target="_blank">Hybrid CNC</a> or <a href="https://goodenoughcnc-troublemaker-3d-printer.readme.io/discuss" target="_blank">Troublemaker 3D forum</a>,  <a target="_blank" href="https://chat.irnas.eu/">chat</a> or via <a href="mailto:info@irnas.eu" target="_top">email</a>.</p>
-<a href="https://goodenoughcnc-hybrid-cnc.readme.io/discuss" class="button btn btn-default btn-success" target="_blank">Hybrid CNC Support</a>
-<a href="https://goodenoughcnc-troublemaker-3d-printer.readme.io/discuss" class="button btn btn-default btn-success" target="_blank">Troublemaker 3D Support</a>
-</div>
+<!--GoodEnoughCNC intro-->
+<div class="clear"></div>
+<div class="highlight bg-primary no-support">
+    <div class="container">
+     <div class="row text-center wow fadeInLeftBig" data-wow-duration="1s">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="button btn btn-large btn-success">Please note that we no longer actively support this project.</div>        
+        </div>
+    </div>
 </div>
