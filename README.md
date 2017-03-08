@@ -2,15 +2,9 @@
 GoodEnoughCNC Instructions
 ======
 
+#### ! PLEASE NOTE THAT WE NO LONGER ACTIVELY SUPPORT THIS PROJECT. 
+
 GoodEnoughCNC step-by-step assembly instructions are available at http://instructions.goodenoughcnc.eu/
-
-Should you need any support with GoodEnoughCNC machines, get in touch with Institute IRNAS team and others involved in the project via [chat](https://chat.irnas.eu/) or [forum](https://goodenoughcnc-hybrid-cnc.readme.io/discuss).
-
-##Buy / Make
-
-![buy-make-goodenoughcnc](img/build-goodenoughcnc.png)
-
-You can order GoodEnoughCNC kits from our partner company [Fabrikor](http://fabrikor.eu/goodenoughcnc-hybrid).
 
 ---
 
